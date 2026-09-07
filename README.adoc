@@ -1,4 +1,4 @@
-= ISO/AWI 25534-1 Part 1 — Vocabulary (PWI)
+= ISO 93333 — Digital product passport — Vocabulary (PWI)
 
 CalConnect working draft for the Digital Product Passport terminology
 standard proposed as ISO 25534-1 Part 1 (Vocabulary), developed for
@@ -9,7 +9,7 @@ submission to ISO/IEC JTC 5.
 [source,bash]
 ----
 bundle install
-metanorma sources/iso-25534-1-pwi/document.adoc
+metanorma sources/iso-93333/document.adoc
 ----
 
 Artifacts: `document.pdf`, `document.html`, `document.xml`.

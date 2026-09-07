@@ -33,6 +33,9 @@ the NWIP.
 
 ### Title of the proposed deliverable
 
+**CalConnect document number:** 93333  
+**Form:** vocabulary (ISO `:docsubtype: vocabulary`)
+
 **English title:** Digital product passport — Part 1: Vocabulary
 
 **French title:** Passeport numérique de produit — Partie 1: Vocabulaire
@@ -109,7 +112,7 @@ depend.
 ### Preparatory work
 
 ☒ A draft is attached (working draft, PWI stage 00.00, dated
-2026-09-07, in the sources/iso-25534-1-pwi/ directory of the
+2026-09-07, in the sources/iso-93333/ directory of the
 drafting workspace, compiled from the machine-readable concept
 dataset published at https://glossarist.org/dpp/ and the mirror
 https://unidpp.org/terminology/).
@@ -355,7 +358,7 @@ project as an active project.
  precedents, including the resolution of the dpp-0001 / dpp-0004
  merger of 2026-09-07).
 * Annex B — _Digital product passport — Part 1: Vocabulary_
- working draft (ISO/PWI 25534-1:2026), the PWI stage 00.00 draft
+ working draft (CalConnect 93333 / ISO PWI stage 00.00), the PWI stage 00.00 draft
  attached as the source-of-truth deliverable for the proposed
  Part 1.
 

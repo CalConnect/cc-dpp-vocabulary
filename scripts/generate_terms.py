@@ -6,7 +6,7 @@ Sources of truth:
   - Framework vocabulary drafted from the UniDPP design framework (terminology blocks + prose)
     and /the UniDPP operator model (end-list candidates)
 
-Output: sources/iso-25534-1-pwi/sections/03-*.adoc + build_stats.json
+Output: sources/iso-93333/sections/03-*.adoc + build_stats.json
 """
 
 import glob

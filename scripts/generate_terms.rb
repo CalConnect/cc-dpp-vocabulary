@@ -7,7 +7,7 @@
 # Source of truth: ENV UNIDPP_GLOSSARIST_CONCEPTS or sibling glossarist dataset
 # (145 concepts after the 2026-09-07 merger of dpp-0001 and dpp-0004).
 #
-# Output: this repository/sources/iso-25534-1-pwi/sections/
+# Output: this repository/sources/iso-93333/sections/
 #
 # Editorial decisions applied by this generator (per the dataset audit):
 #
@@ -60,7 +60,7 @@ require "yaml"
 require "fileutils"
 
 DATASET = ENV.fetch("UNIDPP_GLOSSARIST_CONCEPTS") { File.expand_path("../../../glossarist/unidpp/datasets/dpp/concepts", __dir__) }
-OUT     = File.expand_path("../sources/iso-25534-1-pwi/sections", __dir__)
+OUT     = File.expand_path("../sources/iso-93333/sections", __dir__)
 
 # ---------------------------------------------------------------------------
 # Merge map: source termid => { into:, prefer: }. The source termid is

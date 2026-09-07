@@ -1,0 +1,8 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/iso-93333/document.adoc
+  collection:
+    name: DPP Vocabulary
+    organization: CalConnect
