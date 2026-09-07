@@ -5,3 +5,7 @@ references/internal-paid-standards/**
 *.pyc
 __pycache__/
 .claude/
+*.asciidoc.log.txt
+*.pdf.err
+*.err.html
+relaton/
