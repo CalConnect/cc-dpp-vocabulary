@@ -1,4 +1,4 @@
-// generated from the UniDPP glossarist dataset - do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to trust and verification
 
@@ -12,8 +12,6 @@ NOTE: User in the sense of a person who interacts with a system, product or serv
 [.source]
 <<EN18239,clause="3.1">>, <<EN18216,clause="3.8">>
 
-
-
 [[dpp-0072]]
 === authentication
 
@@ -21,8 +19,6 @@ verification that a claimed identity is correct
 
 [.source]
 <<IEEE8802-1AR,clause="3.2">>, <<EN18216,clause="3.4">>
-
-
 
 [[dpp-0073]]
 === data integrity
@@ -34,8 +30,6 @@ NOTE: In the context of secure communication, data integrity ensures that data t
 [.source]
 <<ISO7498-2,clause="3.3.21">>, modified, <<EN18216,clause="3.5">>
 
-
-
 [[dpp-0074]]
 === secure communication
 
@@ -43,8 +37,6 @@ mechanism of transmitting data between systems in a way that ensures its confide
 
 [.source]
 <<EN18216,clause="3.6">>
-
-
 
 [[dpp-0075]]
 === system resilience
@@ -54,8 +46,6 @@ ability to recover from security compromises or attacks
 [.source]
 <<ISOIEC29180>>, <<EN18239,clause="3.2">>
 
-
-
 [[dpp-0076]]
 === system availability
 
@@ -64,8 +54,6 @@ property of being accessible and usable on demand by an authorized entity
 [.source]
 <<ISOIEC27000>>, <<EN18239,clause="3.3">>
 
-
-
 [[dpp-0077]]
 === cyber resilience
 
@@ -73,8 +61,6 @@ ability to maintain business continuity despite adverse conditions, attacks, or 
 
 [.source]
 <<EN18239,clause="3.4">>
-
-
 
 [[dpp-0078]]
 === recovery point objective
@@ -85,8 +71,6 @@ point in time to which data must be recovered after a disruption has occurred
 [.source]
 <<ISOIEC27031,clause="3.12">>, <<EN18239,clause="3.5">>
 
-
-
 [[dpp-0079]]
 === recovery time objective
 alt:[RTO]
@@ -95,8 +79,6 @@ period of time within which minimum levels of services and/or products and the s
 
 [.source]
 <<ISOIEC27031>>, <<EN18239,clause="3.6">>
-
-
 
 [[dpp-0080]]
 === object
@@ -111,8 +93,6 @@ Product, process, service, system, installation, project, data, design, material
 [.source]
 <<ISOIEC17000,clause="4.2">>, modified, <<EN18219,clause="3.1.12">>
 
-
-
 [[dpp-0081]]
 === PIA
 alt:[RFID privacy impact assessment process]
@@ -121,8 +101,6 @@ RFID Privacy Impact Assessment Process
 
 [.source]
 <<EN18220,clause="3.13">>
-
-
 
 [[dpp-0082]]
 === claim
@@ -134,8 +112,6 @@ NOTE: In this document “sustainability claims” are referred to as just “cl
 [.source]
 <<UNECE46>>, <<CWA18291,clause="3.1">>
 
-
-
 [[dpp-0083]]
 === state-of-the-art
 
@@ -144,8 +120,6 @@ developed stage of technical capability at a given time as regards products, pro
 [.source]
 <<ISOIECGuide2,clause="1.4">>, <<EN18219,clause="3.1.21">>
 
-
-
 [[dpp-0084]]
 === access control
 
@@ -153,8 +127,6 @@ protection of system resources against unauthorized access; a process by which u
 
 [.source]
 <<IECTS62443>>, <<IDTA01001,clause="1.1.1">>
-
-
 
 [[dpp-0085]]
 === electronically signed data construct
@@ -170,8 +142,6 @@ NOTE: An ESDC can contain non-signed data elements.
 [.source]
 <<EN18246,clause="3.1">>, <<ISOIEC20248>>
 
-
-
 [[awi-3.6]]
 === validation
 
@@ -182,8 +152,6 @@ NOTE: Compared with the source: numbers referencing to related sections and the 
 [.source]
 <<AWI25534,clause="3.6">>, <<ISOIEC17000,clause="6.5">>, modified
 
-
-
 [[awi-3.7]]
 === verification
 
@@ -193,5 +161,4 @@ NOTE: Compared with the source: numbers referencing to related sections and the 
 
 [.source]
 <<AWI25534,clause="3.7">>, <<ISOIEC17000,clause="6.6">>, modified
-
 

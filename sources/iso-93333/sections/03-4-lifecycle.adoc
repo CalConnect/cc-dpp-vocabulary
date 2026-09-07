@@ -1,4 +1,4 @@
-// generated from the UniDPP glossarist dataset - do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to lifecycle and events
 
@@ -10,8 +10,6 @@ consecutive and interlinked stages of a product system, from raw material acquis
 [.source]
 <<ISO14040,clause="3.1">>, <<AWI25534,clause="3.2">>, <<EN18219,clause="3.1.10">>, <<EN18220,clause="3.9">>
 
-
-
 [[dpp-0060]]
 === product
 
@@ -19,8 +17,6 @@ any physical good that is placed on the market ({{placed on the market}}) or put
 
 [.source]
 <<EN18220,clause="3.14">>, similar, <<EN18219,clause="3.1.16">>
-
-
 
 [[dpp-0061]]
 === placed on the market
@@ -30,8 +26,6 @@ first making available of a product
 [.source]
 <<EN18219,clause="3.1.14">>
 
-
-
 [[dpp-0062]]
 === put into service
 
@@ -40,8 +34,6 @@ first use, for its intended purpose, of a product
 [.source]
 <<EN18219,clause="3.1.17">>
 
-
-
 [[dpp-0063]]
 === digital product passport lifetime
 
@@ -49,8 +41,6 @@ period during which the digital product passport ({{digital product passport}}) 
 
 [.source]
 <<EN18221,clause="3.4">>
-
-
 
 [[dpp-0064]]
 === end-of-use
@@ -65,8 +55,6 @@ When an organization (e.g., shop or retailer) in possession of the product consi
 [.source]
 <<ISO59004>>, <<CWA18291,clause="3.26">>
 
-
-
 [[dpp-0065]]
 === end-of-life
 
@@ -77,8 +65,6 @@ NOTE: Disposal could be in the form of incineration, deposit to landfill, or com
 [.source]
 <<ISO59004>>, <<CWA18291,clause="3.27">>
 
-
-
 [[dpp-0066]]
 === collection
 
@@ -87,8 +73,6 @@ process of gathering and transporting used textile products or waste materials t
 [.source]
 <<ISO5157>>, <<CWA18291,clause="3.21">>
 
-
-
 [[dpp-0067]]
 === closed loop system
 
@@ -96,8 +80,6 @@ system by which products or resources are used and then recovered and turned int
 
 [.source]
 <<ISO59004>>, <<CWA18291,clause="3.25">>
-
-
 
 [[dpp-0068]]
 === traceability
@@ -109,8 +91,6 @@ NOTE: Lineage: ISO/AWI 25534-1, 3.5 adopts this definition from ISO 9000:2015, m
 [.source]
 <<UNECE46>>, <<AWI25534,clause="3.5">>, <<CWA18291,clause="3.29">>
 
-
-
 [[dpp-0069]]
 === traceability system
 
@@ -119,8 +99,6 @@ practical system of processes, procedures and information exchanges that impleme
 [.source]
 <<UNECE46>>, <<CWA18291,clause="3.30">>
 
-
-
 [[dpp-0070]]
 === traceable asset
 
@@ -128,8 +106,6 @@ traceable asset is any product or material (individually, in batches, or in trad
 
 [.source]
 <<UNECE46>>, <<CWA18291,clause="3.2">>
-
-
 
 [[dpp-0071]]
 === textile product
@@ -143,8 +119,6 @@ NOTE: Source entry heading: “textile product – product”.
 [.source]
 <<ISO5157>>, <<CWA18291,clause="3.4">>
 
-
-
 [[awi-3.3]]
 === circular economy
 
@@ -153,8 +127,6 @@ products and materials are designed in such a way that they can be reused, reman
 [.source]
 <<AWI25534,clause="3.3">>, <<UNEP_EA4_Res1>>
 
-
-
 [[awi-3.4]]
 === product circularity
 
@@ -162,8 +134,6 @@ refers to repairing, reusing and remanufacturing equipment, and harvesting and r
 
 [.source]
 <<AWI25534,clause="3.4">>, <<UNEP_Toledano_2023>>
-
-
 
 [[awi-3.8]]
 === value chain
@@ -174,5 +144,4 @@ NOTE: Compared with the source: the source is framed for the textile sector; the
 
 [.source]
 <<AWI25534,clause="3.8">>, <<UNEP_DTI2532>>, modified
-
 

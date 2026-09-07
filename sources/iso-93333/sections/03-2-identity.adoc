@@ -1,4 +1,4 @@
-// generated from the UniDPP glossarist dataset - do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to identity and carriers
 
@@ -10,8 +10,6 @@ unique string of characters for the identification of a product that also enable
 [.source]
 <<EN18246,clause="3.3">>, <<EN18219>>
 
-
-
 [[dpp-0006]]
 === unique identifier
 
@@ -21,14 +19,10 @@ NOTE: A unique identifier refers to unique product identifier ({{unique product 
 
 NOTE: For more information, see ISO/IEC 15459-1.
 
-NOTE: Regional variant: the definition recorded from the merged concept pair was: string of characters that is required to be unique among all identifiers used for all objects for a specific purpose
-
 NOTE: Recorded variance: EN 18219:2026 modification: Note 1 to entry removed and a new Note 1 to entry added. EN 18220:2026 modification: “identifier” replaced by “string of characters”, Note 1 to entry removed and a new Note 1 to entry added.
 
 [.source]
 <<ISO29404,clause="3.26">>, <<EN18219,clause="3.1.24">>, similar, <<EN18220,clause="3.18">>, similar, <<CWA18291,clause="3.3">>, <<ISOIEC15459-1>>
-
-
 
 [[dpp-0008]]
 === digital identifier
@@ -38,8 +32,6 @@ sequence of characters associated with digital, non-digital, or abstract entitie
 [.source]
 <<ISO24619,clause="3.2.1">>, <<EN18216,clause="3.1">>
 
-
-
 [[dpp-0009]]
 === identification
 
@@ -47,8 +39,6 @@ process of recognizing an object in a particular domain as distinct from other o
 
 [.source]
 <<ISOIEC24760,clause="3.2.1">>, <<EN18216,clause="3.3">>
-
-
 
 [[dpp-0010]]
 === identification scheme
@@ -58,8 +48,6 @@ system for allocating identifiers to objects
 [.source]
 <<ISOIEC6523,clause="3.6">>, modified, <<EN18219,clause="3.1.6">>
 
-
-
 [[dpp-0011]]
 === domain
 
@@ -67,8 +55,6 @@ specified area of knowledge, application, or activity within which a unique iden
 
 [.source]
 <<EN18219,clause="3.1.4">>
-
-
 
 [[dpp-0012]]
 === self-issuing system
@@ -79,8 +65,6 @@ system or mechanism that an organization uses to generate and assign unique iden
 [.source]
 <<EN18219,clause="3.1.20">>
 
-
-
 [[dpp-0013]]
 === persistence
 
@@ -88,8 +72,6 @@ process to keep a unique identifier associated with an identified object through
 
 [.source]
 <<EN18219,clause="3.1.13">>, <<EN18220,clause="3.12">>
-
-
 
 [[dpp-0014]]
 === preservation
@@ -99,8 +81,6 @@ activity of ensuring that a unique identifier and its denotation remain stable, 
 [.source]
 <<EN18219,clause="3.1.15">>
 
-
-
 [[dpp-0015]]
 === resolution
 
@@ -109,8 +89,6 @@ process in which an identifier is translated or mapped to another identifier, as
 [.source]
 <<EN18219,clause="3.1.18">>, <<ISOIEC18975>>
 
-
-
 [[dpp-0016]]
 === resolver
 
@@ -118,8 +96,6 @@ system or service that performs resolution ({{resolution}})
 
 [.source]
 <<EN18219,clause="3.1.19">>, <<ISOIEC18975>>
-
-
 
 [[dpp-0017]]
 === unique economic operator identifier
@@ -131,8 +107,6 @@ NOTE: The source prints “an actors”; the definition is reproduced verbatim.
 [.source]
 <<EN18219,clause="3.1.22">>
 
-
-
 [[dpp-0018]]
 === unique facility identifier
 
@@ -140,8 +114,6 @@ unique string of characters for the identification of location or building invol
 
 [.source]
 <<EN18219,clause="3.1.23">>
-
-
 
 [[dpp-0019]]
 === unique registration identifier
@@ -156,8 +128,6 @@ Unique identifiers can be unique product identifier, unique facility identifier,
 [.source]
 <<EN18222,clause="3.6">>
 
-
-
 [[dpp-0020]]
 === data carrier
 
@@ -165,8 +135,6 @@ device or medium used to store data as a relay mechanism in an automatic identif
 
 [.source]
 <<EN18220,clause="3.5">>
-
-
 
 [[dpp-0021]]
 === additional software
@@ -183,8 +151,6 @@ Proprietary applications, plugins or extensions, dedicated apps, specialized mid
 [.source]
 <<EN18220,clause="3.1">>
 
-
-
 [[dpp-0022]]
 === barcode
 
@@ -195,8 +161,6 @@ NOTE: It excludes RFID data carriers.
 [.source]
 <<EN18220,clause="3.2">>
 
-
-
 [[dpp-0023]]
 === near field communication
 alt:[NFC]
@@ -206,8 +170,6 @@ subset of HF passive radio-frequency identification with low range
 [.source]
 <<EN18220,clause="3.11">>
 
-
-
 [[dpp-0024]]
 === radio-frequency identification
 
@@ -215,8 +177,6 @@ identification technology that uses electromagnetic fields to automatically iden
 
 [.source]
 <<EN18220,clause="3.15">>
-
-
 
 [[dpp-0025]]
 === RAIN RFID
@@ -229,8 +189,6 @@ NOTE: Source entry heading: “RAIN RFID (UHF RFID) per ISO/IEC 18000-63”.
 [.source]
 <<EN18220,clause="3.16">>
 
-
-
 [[dpp-0026]]
 === two-dimensional symbol
 
@@ -238,8 +196,6 @@ code representing data in machine-readable form by a collection of polygonal or 
 
 [.source]
 <<EN18220,clause="3.17">>
-
-
 
 [[dpp-0027]]
 === X dimension
@@ -249,8 +205,6 @@ specified width of the narrow in a bar code symbol or the specified width of a s
 [.source]
 <<ISOIEC19762,clause="3.2.1.10">>, <<EN18220,clause="3.19">>
 
-
-
 [[dpp-0028]]
 === batch
 
@@ -258,8 +212,6 @@ subset of a model ({{model}}) that is grouped by an economic operator based on c
 
 [.source]
 <<EN18220,clause="3.3">>, similar, <<EN18219,clause="3.1.1">>
-
-
 
 [[dpp-0029]]
 === item
@@ -269,8 +221,6 @@ single unit of a model ({{model}})
 [.source]
 <<EN18220,clause="3.8">>, similar, <<EN18219,clause="3.1.9">>
 
-
-
 [[dpp-0030]]
 === model
 
@@ -278,8 +228,6 @@ version of a product of which all units share the same technical characteristics
 
 [.source]
 <<EN18219,clause="3.1.11">>, <<EN18220,clause="3.10">>
-
-
 
 [[dpp-0031]]
 === identifier
@@ -290,5 +238,4 @@ NOTE: There are specific identifiers, e.g. UUID Universal unique identifier, IEC
 
 [.source]
 <<I40GLOSS>>, <<IDTA01001,clause="1.1.14">>
-
 

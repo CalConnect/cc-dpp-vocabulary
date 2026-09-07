@@ -1,4 +1,4 @@
-// generated from the UniDPP glossarist dataset - do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to measurement and material flow
 
@@ -11,5 +11,4 @@ NOTE: The proportion of the input with specified characteristics can only match 
 
 [.source]
 <<ISO22095,clause="3.3.4">>, <<CWA18291,clause="3.28">>
-
 

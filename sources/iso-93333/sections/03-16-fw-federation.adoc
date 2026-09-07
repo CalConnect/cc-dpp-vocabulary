@@ -1,4 +1,4 @@
-// framework-defined entries (UniDPP) - generated, do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to the framework: trust semantics, degradation and federation
 

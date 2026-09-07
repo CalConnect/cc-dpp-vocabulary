@@ -1,4 +1,4 @@
-// generated from the UniDPP glossarist dataset - do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to actors and issuance
 
@@ -7,12 +7,8 @@
 
 manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider
 
-NOTE: Regional variant: the definition recorded from the merged concept pair was: manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider that places the product on the market
-
 [.source]
 <<EN18219,clause="3.1.5">>, similar, <<EN18220,clause="3.7">>, similar, <<EN18221,clause="3.1">>
-
-
 
 [[dpp-0034]]
 === digital product passport service provider
@@ -22,8 +18,6 @@ natural or legal person that is an independent third party authorized by the eco
 [.source]
 <<EN18221,clause="3.3">>
 
-
-
 [[dpp-0035]]
 === main digital product passport service provider
 
@@ -31,8 +25,6 @@ digital product passport service provider ({{digital product passport service pr
 
 [.source]
 <<EN18221,clause="3.3.1">>
-
-
 
 [[dpp-0036]]
 === back-up digital product passport service provider
@@ -42,8 +34,6 @@ digital product passport service provider ({{digital product passport service pr
 [.source]
 <<EN18221,clause="3.3.2">>
 
-
-
 [[dpp-0037]]
 === issuing agency
 
@@ -51,8 +41,6 @@ organisation entrusted by a Registration Authority (RA) to manage unique identif
 
 [.source]
 <<EN18219,clause="3.1.8">>
-
-
 
 [[dpp-0038]]
 === actor
@@ -62,8 +50,6 @@ organization or individual that fulfils a role
 [.source]
 <<ISO23234,clause="3.4">>, <<EN18239,clause="3.7">>
 
-
-
 [[dpp-0039]]
 === notified actor
 
@@ -72,8 +58,6 @@ organization or individual entitled by an authorized accrediting body or authori
 [.source]
 <<EN18239,clause="3.8">>
 
-
-
 [[dpp-0040]]
 === consumer
 
@@ -81,8 +65,6 @@ individual member of the general public purchasing or using goods, property or s
 
 [.source]
 <<ISO14025EN,clause="3.16">>, <<EN18219,clause="3.1.2">>, <<EN18220,clause="3.4">>, <<CWA18291,clause="3.24">>
-
-
 
 [[dpp-0041]]
 === customer
@@ -94,8 +76,6 @@ NOTE: The customer may be the user or a distributor [SOURCE: ISO 9000].
 [.source]
 <<ISO9000>>, <<CWA18291,clause="3.23">>
 
-
-
 [[dpp-0042]]
 === expert
 
@@ -103,8 +83,6 @@ expert in charge of performing a study
 
 [.source]
 <<CWA18291,clause="3.8">>
-
-
 
 [[dpp-0043]]
 === reviewer
@@ -114,8 +92,6 @@ expert in charge of reviewing a study
 [.source]
 <<CWA18291,clause="3.9">>
 
-
-
 [[dpp-0044]]
 === exporter
 
@@ -123,8 +99,6 @@ name and address of the person who makes, or on whose behalf the "export declara
 
 [.source]
 <<ISOTS24533>>, <<CWA18291,clause="3.10">>
-
-
 
 [[dpp-0045]]
 === seller
@@ -134,8 +108,6 @@ company or company function that sells a product
 [.source]
 <<CWA18291,clause="3.11">>
 
-
-
 [[dpp-0046]]
 === subcontractor
 
@@ -143,8 +115,6 @@ company or company function that performs activities as a sub-contractor (for ex
 
 [.source]
 <<CWA18291,clause="3.12">>
-
-
 
 [[dpp-0047]]
 === buyer
@@ -154,8 +124,6 @@ individual or entity purchasing goods or services
 [.source]
 <<ISO24533-2>>, <<CWA18291,clause="3.13">>
 
-
-
 [[dpp-0048]]
 === producer
 
@@ -163,8 +131,6 @@ company or company function that produces final or non-final fashion products (y
 
 [.source]
 <<CWA18291,clause="3.14">>
-
-
 
 [[dpp-0049]]
 === supplier
@@ -174,8 +140,6 @@ company or company function that produces non final products (accessories, fabri
 [.source]
 <<CWA18291,clause="3.15">>
 
-
-
 [[dpp-0050]]
 === yarn producer
 
@@ -183,8 +147,6 @@ company or company function that produces yarns from raw material; it has mainly
 
 [.source]
 <<CWA18291,clause="3.16">>
-
-
 
 [[dpp-0051]]
 === retailer
@@ -194,8 +156,6 @@ company or company function that sells garments to the Consumer. It is a client 
 [.source]
 <<CWA18291,clause="3.17">>
 
-
-
 [[dpp-0052]]
 === apparel producer
 
@@ -203,8 +163,6 @@ company or company function that organizes manufacturing and material supplying 
 
 [.source]
 <<CWA18291,clause="3.18">>
-
-
 
 [[dpp-0053]]
 === sorter
@@ -214,8 +172,6 @@ person or a system that categorizes discarded textile materials by their fibre c
 [.source]
 <<CWA18291,clause="3.19">>
 
-
-
 [[dpp-0054]]
 === textile collector
 
@@ -223,8 +179,6 @@ actor involved in separate collection of textiles
 
 [.source]
 <<ISO5157>>, <<CWA18291,clause="3.20">>
-
-
 
 [[dpp-0055]]
 === recycler
@@ -238,8 +192,6 @@ NOTE: Recycling does not include reuse.
 [.source]
 <<ISO59004>>, <<CWA18291,clause="3.22">>
 
-
-
 [[dpp-0056]]
 === eService platform
 
@@ -247,8 +199,6 @@ platform for eBusiness centralized services
 
 [.source]
 <<CWA18291,clause="3.5">>
-
-
 
 [[dpp-0057]]
 === traceability platform
@@ -258,8 +208,6 @@ platform dedicated to traceability services
 [.source]
 <<CWA18291,clause="3.6">>
 
-
-
 [[dpp-0058]]
 === sustainability management platform
 
@@ -267,5 +215,4 @@ platform dedicated to sustainability data collection, management and reporting
 
 [.source]
 <<CWA18291,clause="3.7">>
-
 

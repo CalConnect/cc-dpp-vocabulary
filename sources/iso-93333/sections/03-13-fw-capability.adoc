@@ -1,4 +1,4 @@
-// framework-defined entries (UniDPP) - generated, do not edit by hand
+// Term entries
 [heading=terms and definitions]
 == Terms related to the framework: capability classes and digital twins
 

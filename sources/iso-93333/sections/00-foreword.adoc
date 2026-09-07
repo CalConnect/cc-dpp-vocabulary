@@ -9,6 +9,4 @@ Any trade name used in this document is information given for the convenience of
 
 For an explanation of the voluntary nature of standards, the meaning of ISO and IEC specific terms and expressions related to conformity assessment, as well as information about ISO's adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT), see www.iso.org/iso/foreword.html.
 
-This document was prepared by Joint Technical Committee ISO/IEC JTC 5, _Digital product passport_ (secretariat DIN).
-
-This preliminary work item draft was prepared by CalConnect (The Calendaring and Scheduling Consortium), Category A liaison applicant to ISO/IEC JTC 5, as an input document for the proposed terminology work item arising from the proposed division of ISO 25534-1 into a Part 1, Vocabulary, and a Part 2, Overview and fundamental principles. It is derived from a machine-readable concept dataset of 145 verified concepts published at https://glossarist.org/dpp/ (mirror: https://unidpp.org/terminology/). It does not represent a consensus of ISO/IEC JTC 5.
+This document was prepared by Joint Technical Committee ISO/IEC JTC 5, _Digital product passport_.
