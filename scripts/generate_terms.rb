@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Generate Metanorma ISO 25534-1 PWI term-entry sections from the
+# Generate Metanorma ISO 93333 vocabulary term-entry sections from the
 # UniDPP glossarist concept dataset.
 #
 # Source of truth: ENV UNIDPP_GLOSSARIST_CONCEPTS or sibling glossarist dataset
