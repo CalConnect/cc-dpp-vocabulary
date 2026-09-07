@@ -1,0 +1,178 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to lifecycle and events
+
+[[dpp-0059]]
+=== life cycle
+
+consecutive and interlinked stages of a product system, from raw material acquisition or generation from natural resources to final disposal
+
+[.source]
+<<ISO14040,clause="3.1">>, <<AWI25534,clause="3.2">>, <<EN18219,clause="3.1.10">>, <<EN18220,clause="3.9">>
+
+
+
+[[dpp-0060]]
+=== product
+
+any physical good that is placed on the market ({{placed on the market}}) or put into service ({{put into service}})
+
+[.source]
+<<EN18220,clause="3.14">>, similar, <<EN18219,clause="3.1.16">>
+
+
+
+[[dpp-0061]]
+=== placed on the market
+
+first making available of a product
+
+[.source]
+<<EN18219,clause="3.1.14">>
+
+
+
+[[dpp-0062]]
+=== put into service
+
+first use, for its intended purpose, of a product
+
+[.source]
+<<EN18219,clause="3.1.17">>
+
+
+
+[[dpp-0063]]
+=== digital product passport lifetime
+
+period during which the digital product passport ({{digital product passport}}) is required by regulation to be available to any operator or natural or legal person with a right to access its data
+
+[.source]
+<<EN18221,clause="3.4">>
+
+
+
+[[dpp-0064]]
+=== end-of-use
+
+point in time during the life cycle at which a product or resource is transferred by the holder to some other holder
+
+[example]
+--
+When an organization (e.g., shop or retailer) in possession of the product considers it to be a waste since it hasn't or can't be sold.
+--
+
+[.source]
+<<ISO59004>>, <<CWA18291,clause="3.26">>
+
+
+
+[[dpp-0065]]
+=== end-of-life
+
+point in time during the life cycle at which a product or resource is taken out of use and is disposed
+
+NOTE: Disposal could be in the form of incineration, deposit to landfill, or composting.
+
+[.source]
+<<ISO59004>>, <<CWA18291,clause="3.27">>
+
+
+
+[[dpp-0066]]
+=== collection
+
+process of gathering and transporting used textile products or waste materials to a sorting facility for further processing such as reuse, repair, remanufacturing, or recycling
+
+[.source]
+<<ISO5157>>, <<CWA18291,clause="3.21">>
+
+
+
+[[dpp-0067]]
+=== closed loop system
+
+system by which products or resources are used and then recovered and turned into new products or recovered resources, without losing their inherent properties
+
+[.source]
+<<ISO59004>>, <<CWA18291,clause="3.25">>
+
+
+
+[[dpp-0068]]
+=== traceability
+
+ability to trace the history, application or location of an object in a value chain
+
+NOTE: Lineage: ISO/AWI 25534-1, 3.5 adopts this definition from ISO 9000:2015, modified by the addition of "in a value chain".
+
+[.source]
+<<UNECE46>>, <<AWI25534,clause="3.5">>, <<CWA18291,clause="3.29">>
+
+
+
+[[dpp-0069]]
+=== traceability system
+
+practical system of processes, procedures and information exchanges that implements traceability
+
+[.source]
+<<UNECE46>>, <<CWA18291,clause="3.30">>
+
+
+
+[[dpp-0070]]
+=== traceable asset
+
+traceable asset is any product or material (individually, in batches, or in trade units) that needs to be tracked along a value chain
+
+[.source]
+<<UNECE46>>, <<CWA18291,clause="3.2">>
+
+
+
+[[dpp-0071]]
+=== textile product
+
+product made mainly of textile fibres, yarns and/or fabrics and intended to be used, as such or in conjunction with other textile or non-textile elements
+
+NOTE: These articles can contain non-textile parts, such as plastics (e.g. buttons and membrane or coatings) or metals.
+
+NOTE: Source entry heading: “textile product – product”.
+
+[.source]
+<<ISO5157>>, <<CWA18291,clause="3.4">>
+
+
+
+[[awi-3.3]]
+=== circular economy
+
+products and materials are designed in such a way that they can be reused, remanufactured, recycled or recovered and thus maintained in the economy for as long as possible, along with the resources of which they are made, and the generation of waste, especially hazardous waste, is avoided or minimized and greenhouse gas emissions are prevented or reduced, can contribute significantly to sustainable consumption and production
+
+[.source]
+<<AWI25534,clause="3.3">>, <<UNEP_EA4_Res1>>
+
+
+
+[[awi-3.4]]
+=== product circularity
+
+refers to repairing, reusing and remanufacturing equipment, and harvesting and recycling metals indefinitely through product design and collection processes
+
+[.source]
+<<AWI25534,clause="3.4">>, <<UNEP_Toledano_2023>>
+
+
+
+[[awi-3.8]]
+=== value chain
+
+all activities and stakeholders that provide or receive value from designing, developing, making, distributing, retailing, and consuming a product (or providing the service that a product renders), including the extraction and supply of raw materials, as well as activities involving the product after its useful service life has ended
+
+NOTE: Compared with the source: the source is framed for the textile sector; the AWI draft reformulates the term in a sector-neutral form.
+
+[.source]
+<<AWI25534,clause="3.8">>, <<UNEP_DTI2532>>, modified
+
+

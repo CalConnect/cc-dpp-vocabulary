@@ -1,0 +1,9 @@
+== Scope
+
+This document establishes a vocabulary for the digital product passport (DPP).
+
+It defines terms for the fundamental concepts of the digital product passport as used in the documents that currently govern or inform its implementation, and it harmonizes those concepts where their definitions conflict. The source corpus comprises the EN 182xx series (EN 18216:2026 to EN 18223:2026, EN 18239:2026 and EN 18246:2026), CWA 18291:2025, the Asset Administration Shell metamodel specification IDTA 01001-3.2:2026, and ISO/AWI 25534-1, together with the further standards cited as sources of individual definitions.
+
+In addition to the harmonized terms (3.1 to 3.7), this document defines terms for a framework architecture of projections, profiles, service tiers and graded trust (3.8 to 3.16), developed to name concepts that the source corpus requires but does not define, including the digital twin as the subject of the passport, the provenance and precedence of facts, the composition and transformation of passports, the capability classes of subjects, and the verification semantics of trust.
+
+This document supports the proposed division of ISO 25534-1 into a Part 1, Vocabulary, and a Part 2, Overview and fundamental principles. The terms defined here are intended to serve all subsequent parts of ISO 25534 and documents referring to them.

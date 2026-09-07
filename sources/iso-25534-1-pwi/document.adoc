@@ -1,0 +1,68 @@
+= Digital product passport — Part 1: Vocabulary
+:docnumber: 25534
+:partnumber: 1
+:edition: 1
+:revdate: 2026-09-07
+:copyright-year: 2026
+:title-intro-en: Digital product passport
+:title-intro-fr: Passeport numérique de produit
+:title-main-en: Vocabulary
+:title-main-fr: Vocabulaire
+:doctype: international-standard
+:docsubtype: vocabulary
+:docstage: 00
+:docsubstage: 00
+:technical-committee-type: JTC
+:technical-committee-number: 5
+:technical-committee: Digital product passport
+:secretariat: DIN
+:library-ics: 35.240.63
+:language: en
+:script: Latn
+:mn-document-class: iso
+:mn-output-extensions: xml,html,pdf
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-1-dpp.adoc[]
+
+include::sections/03-2-identity.adoc[]
+
+include::sections/03-3-actors.adoc[]
+
+include::sections/03-4-lifecycle.adoc[]
+
+include::sections/03-5-trust.adoc[]
+
+include::sections/03-6-semantics.adoc[]
+
+include::sections/03-7-measurement.adoc[]
+
+include::sections/03-8-fw-profiles.adoc[]
+
+include::sections/03-9-fw-projection.adoc[]
+
+include::sections/03-10-fw-lattice.adoc[]
+
+include::sections/03-11-fw-stamps.adoc[]
+
+include::sections/03-12-fw-characteristic.adoc[]
+
+include::sections/03-13-fw-capability.adoc[]
+
+include::sections/03-14-fw-relations.adoc[]
+
+include::sections/03-15-fw-visibility.adoc[]
+
+include::sections/03-16-fw-federation.adoc[]
+
+include::sections/aa-annex-a.adoc[]
+
+include::sections/zz-references.adoc[]

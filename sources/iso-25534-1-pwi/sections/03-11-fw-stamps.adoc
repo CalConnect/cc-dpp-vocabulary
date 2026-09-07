@@ -1,0 +1,77 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: stamps and the transformation algebra
+
+[[term-dpp-0128]]
+=== stamp
+
+lens-scoped attestation consisting of an attester signature over the subject, the subject state commitment, the lens identity and version, the mode (live or snapshot), a verdict with coverage report, and log-anchored time
+
+NOTE: Stamps accrete append-only and are valid under the stamper's lens regardless of the issuer's.
+
+NOTE: Jurisdiction stamps on a foreign-issued passport correspond to visas; entry and exit stamps correspond to verifier custody events.
+
+NOTE: Stamps may carry quantity context, inherited by downstream transformations.
+
+[[term-fw-11-02]]
+=== lens-scoped attestation
+
+attestation whose validity is defined by, and only by, the profile under which it was issued
+
+NOTE: A stamp is the signed form of a lens-scoped attestation.
+
+[[term-dpp-0130]]
+=== derived passport
+
+passport issued as the output of a transformation event by an actor accredited for the regulated claims it contains, hash-linking its input passports
+
+NOTE: Only accredited actors may issue derived passports for regulated claims.
+
+NOTE: Children of a split carry a derived-from reference and quantity carve-outs, with the sum of children not exceeding the parent (remainder semantics).
+
+[[term-dpp-0129]]
+=== transformation event
+
+typed event in the provenance directed acyclic graph that records the split of one passport into many, or the combination or transformation of many passports into one
+
+NOTE: The output issuance event carries input references of passport, quantity and as-of state hash, so the new passport hash-links its sources.
+
+NOTE: Quantities resulting from a transformation are new measured facts with provenance "computed by transformation event", never copies; mass balance is auditable as input minus output equals loss.
+
+NOTE: Inputs transition to consumed or transformed status: historical, still verifiable, still needed for as-of queries.
+
+[[term-fw-11-05]]
+=== inputReference
+
+record in the issuance event of a derived passport naming an input passport, the quantity consumed and the as-of state hash under which it was taken
+
+NOTE: The new passport hash-links its sources, so that the provenance graph is reconstructable without trusting the issuing actor alone.
+
+[[term-fw-11-06]]
+=== quantity carve-out
+
+recorded allocation of input quantity to an output of a split transformation, such that the sum of the child quantities does not exceed the parent
+
+[[term-fw-11-07]]
+=== mass balance accounting
+
+bookkeeping over transformation events in which inputs and outputs of a specified characteristic are reconciled per period, with losses and taint carried explicitly
+
+NOTE: Mass balance accounting applies a mass balance model (3.7.1) to a set of transformation events.
+
+[[term-fw-11-08]]
+=== consumed passport
+
+input passport that has reached the consumed or transformed state in a transformation event, retaining historical verifiability for as-of queries
+
+[[term-fw-11-09]]
+=== blind provenance
+
+attestation of input provenance issued by a notified or accredited body that withholds the raw input identities behind its own attestation, used where commercial confidentiality demands it
+
+[[term-fw-11-10]]
+=== jurisdiction stamp
+
+stamp issued under a jurisdiction profile on a passport issued under another jurisdiction, recording that the stamping jurisdiction's requirements were assessed
+
+NOTE: The colloquial designation of a jurisdiction stamp on a foreign-issued passport is "visa"; entry and exit stamps are the verifier's custody events.

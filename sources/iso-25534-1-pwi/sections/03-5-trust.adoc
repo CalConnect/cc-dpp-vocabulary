@@ -1,0 +1,197 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to trust and verification
+
+[[dpp-0002]]
+=== controlled DPP data
+
+information on digital product passport whose access is controlled based on the user's access rights
+
+NOTE: User in the sense of a person who interacts with a system, product or service.
+
+[.source]
+<<EN18239,clause="3.1">>, <<EN18216,clause="3.8">>
+
+
+
+[[dpp-0072]]
+=== authentication
+
+verification that a claimed identity is correct
+
+[.source]
+<<IEEE8802-1AR,clause="3.2">>, <<EN18216,clause="3.4">>
+
+
+
+[[dpp-0073]]
+=== data integrity
+
+property that data has not been altered or destroyed in an unauthorised manner
+
+NOTE: In the context of secure communication, data integrity ensures that data transmitted between parties remains unaltered and intact from the moment it leaves the sender to the moment it reaches the receiver. This means that the data has not been tampered with, modified, or corrupted during transmission – whether accidentally or through malicious actions.
+
+[.source]
+<<ISO7498-2,clause="3.3.21">>, modified, <<EN18216,clause="3.5">>
+
+
+
+[[dpp-0074]]
+=== secure communication
+
+mechanism of transmitting data between systems in a way that ensures its confidentiality, integrity and authenticity
+
+[.source]
+<<EN18216,clause="3.6">>
+
+
+
+[[dpp-0075]]
+=== system resilience
+
+ability to recover from security compromises or attacks
+
+[.source]
+<<ISOIEC29180>>, <<EN18239,clause="3.2">>
+
+
+
+[[dpp-0076]]
+=== system availability
+
+property of being accessible and usable on demand by an authorized entity
+
+[.source]
+<<ISOIEC27000>>, <<EN18239,clause="3.3">>
+
+
+
+[[dpp-0077]]
+=== cyber resilience
+
+ability to maintain business continuity despite adverse conditions, attacks, or compromises on critical data flow and related information systems
+
+[.source]
+<<EN18239,clause="3.4">>
+
+
+
+[[dpp-0078]]
+=== recovery point objective
+alt:[RPO]
+
+point in time to which data must be recovered after a disruption has occurred
+
+[.source]
+<<ISOIEC27031,clause="3.12">>, <<EN18239,clause="3.5">>
+
+
+
+[[dpp-0079]]
+=== recovery time objective
+alt:[RTO]
+
+period of time within which minimum levels of services and/or products and the supporting systems, applications, or functions must be recovered after a disruption has occurred
+
+[.source]
+<<ISOIEC27031>>, <<EN18239,clause="3.6">>
+
+
+
+[[dpp-0080]]
+=== object
+
+entity to which specified requirements apply
+
+[example]
+--
+Product, process, service, system, installation, project, data, design, material, claim, person, body or organization, or any combination thereof.
+--
+
+[.source]
+<<ISOIEC17000,clause="4.2">>, modified, <<EN18219,clause="3.1.12">>
+
+
+
+[[dpp-0081]]
+=== PIA
+alt:[RFID privacy impact assessment process]
+
+RFID Privacy Impact Assessment Process
+
+[.source]
+<<EN18220,clause="3.13">>
+
+
+
+[[dpp-0082]]
+=== claim
+
+high-level statement about a characteristic of a product, or about a process or an organization associated with that product (traceable asset). A sustainability claim is a claim that covers one or multiple sustainability dimensions (economic, environmental, social)
+
+NOTE: In this document “sustainability claims” are referred to as just “claims”.
+
+[.source]
+<<UNECE46>>, <<CWA18291,clause="3.1">>
+
+
+
+[[dpp-0083]]
+=== state-of-the-art
+
+developed stage of technical capability at a given time as regards products, processes and services, based on the relevant consolidated findings of science, technology and experience
+
+[.source]
+<<ISOIECGuide2,clause="1.4">>, <<EN18219,clause="3.1.21">>
+
+
+
+[[dpp-0084]]
+=== access control
+
+protection of system resources against unauthorized access; a process by which use of system resources is regulated according to a security policy and is permitted by only authorized entities (users, programs, processes, or other systems) according to that policy
+
+[.source]
+<<IECTS62443>>, <<IDTA01001,clause="1.1.1">>
+
+
+
+[[dpp-0085]]
+=== electronically signed data construct
+
+structured data set containing the header, payload, signature and optional data fields
+
+NOTE: The payload type and issuer identity are included in the header.
+
+NOTE: An ESDC is a machine-readable code.
+
+NOTE: An ESDC can contain non-signed data elements.
+
+[.source]
+<<EN18246,clause="3.1">>, <<ISOIEC20248>>
+
+
+
+[[awi-3.6]]
+=== validation
+
+confirmation of the plausibility for a specific intended use or application through the provision of objective evidence that specified requirements have been met
+
+NOTE: Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition.
+
+[.source]
+<<AWI25534,clause="3.6">>, <<ISOIEC17000,clause="6.5">>, modified
+
+
+
+[[awi-3.7]]
+=== verification
+
+confirmation of the truthfulness through the provision of objective evidence that specified requirements have been fulfilled
+
+NOTE: Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition.
+
+[.source]
+<<AWI25534,clause="3.7">>, <<ISOIEC17000,clause="6.6">>, modified
+
+

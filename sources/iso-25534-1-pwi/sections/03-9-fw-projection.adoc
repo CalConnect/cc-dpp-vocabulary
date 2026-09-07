@@ -1,0 +1,82 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: projection, composition and service tiers
+
+[[term-dpp-0126]]
+=== projection
+
+deterministic, registered and legally cited view of the testimonial record of a governed digital twin, computed under a profile from the event-sourced change log
+
+NOTE: The passport is the legal materialized view of the twin; the twin is the source of truth.
+
+NOTE: Notarized snapshots support as-of queries, which answer what was legally true at a given time.
+
+NOTE: Any conforming twin can emit the view; the projection is defined representation-neutrally.
+
+[[term-fw-9-02]]
+=== materialized view
+
+rendered, citable result of a projection, materialized at a point in time for serving and verification
+
+NOTE: The digital product passport is the legal materialized view of the digital twin.
+
+[[term-fw-9-03]]
+=== child passport
+
+passport of a component or sub-product that is independently placed on the market or independently regulated, referenced by identity from the passport of the composite product
+
+NOTE: Children join by identity reference, never by data copying; roll-up views are computed from the references.
+
+[[term-fw-9-04]]
+=== containment event
+
+typed event recording that one passport is physically or structurally contained in another, retained for genealogy and recall traversal and never transferring authority
+
+[[term-fw-9-05]]
+=== genealogy
+
+complete directed ancestry of a passport, traced through transformation and containment events from raw-material and component passports to the present subject
+
+[[term-dpp-0146]]
+=== as-of state
+
+state of a subject reconstructed from its event-sourced record at a specified past time, anchored by a notarized snapshot so that queries can answer what was legally true at that time
+
+NOTE: The two authoritative query modes are the live view (freshness-labelled) and the notarized as-of snapshot (log-anchored); legal purpose selects the mode.
+
+NOTE: Transformation events hash-link their inputs by as-of state hash, and profile-version bindings recorded as lifecycle events make manifest history as-of-reconstructable, answering questions such as whether a product was compliant when sold.
+
+NOTE: Mirrors and caches are always as-of stamped; the projection is computed from the record, so as-of queries are reproducible.
+
+[[term-fw-9-07]]
+=== offline minimum
+
+subset of passport data and verification material specified as sufficient for offline verification of identity and status from the data carrier alone
+
+NOTE: The Tier-A payload is the carrier-embedded realization of the offline minimum.
+
+[[term-fw-9-08]]
+=== degradation ladder
+
+ordered set of service tiers by which availability and verification degrade explicitly, from the served full passport through the carrier-embedded minimum to the archival record
+
+NOTE: Stale or offline data is always marked as such, never silently passed as current.
+
+[[term-dpp-0131]]
+=== Tier-A payload
+
+carrier-embedded minimum viable passport, comprising the product identifier, the resolver URI, the economic operator identifier, the status, the critical safety or recall flag, the validity and multi-suite compressed signatures, sized to the data carrier and verifiable offline against pre-cached trust anchors
+
+NOTE: The three-tier degradation ladder comprises Tier A (carrier-embedded minimum), Tier B (served full passport) and Tier C (archival).
+
+NOTE: Stale or offline data degrades explicitly through freshness verdicts and never passes silently.
+
+[[term-fw-9-10]]
+=== Tier-B payload
+
+full passport content, served through resolution and hosting services in accordance with the applicable profile
+
+[[term-fw-9-11]]
+=== Tier-C archive
+
+notarized archival form of the passport record, retained for persistence beyond the operational lifetime of any single provider

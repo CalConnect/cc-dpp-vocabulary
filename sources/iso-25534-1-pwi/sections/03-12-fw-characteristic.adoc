@@ -1,0 +1,55 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: characteristic profiles and orphan objects
+
+[[term-dpp-0125]]
+=== characteristic profile
+
+profile that attaches by predicate on digital twin facts, such as age, material content, heritage status or market status, rather than by law-of-place or industry
+
+NOTE: Characteristic profiles split into regulatory-triggered profiles (for example CITES species content, cultural-goods import controls, art-market due diligence, conflict-minerals origin) and voluntary value profiles (for example provenance and grading for antiques and collectibles).
+
+NOTE: Predicate triggers include time predicates: an object becoming older than a given age is a clock-fired applicability event handled by the dated-binding machinery.
+
+[[term-dpp-0141]]
+=== trigger predicate
+
+declared component of a profile stating the conditions under which the profile applies, evaluated against the facts of the digital twin rather than against who declares them
+
+NOTE: Characteristic profiles attach by predicate on twin facts, namely age, material content, heritage status, market status, rather than by law-of-place or industry.
+
+NOTE: Predicate triggers include time predicates: an object becoming older than a given age is a clock-fired applicability event, handled by the dated-binding machinery so that applicability attaches without human declaration.
+
+NOTE: The expression "characteristic profile trigger" denotes this predicate as used by a characteristic profile and is folded into this concept rather than recorded separately.
+
+[[term-fw-12-03]]
+=== commissioning
+
+issuance act by which a qualified attestor or registrar establishes the identity of an object that predates or lies outside a manufacturer-issued regime, recording the first sighting in the event log
+
+[[term-fw-12-04]]
+=== qualified attestor
+
+actor accredited under a profile's trust list to commission identities or to attest attributes of orphan objects, such as an auction house, authentication board or registrar
+
+[[term-fw-12-05]]
+=== attribution
+
+expert statement assigning an object to a creator, workshop or period, recorded as a competing fact with provenance rather than merged with other attributions
+
+[[term-fw-12-06]]
+=== provenance gap
+
+explicitly recorded interval in a subject's custody or provenance chain for which no evidence exists
+
+NOTE: A provenance gap is data, not an error; it is honestly representable in the event-sourced record.
+
+[[term-fw-12-07]]
+=== condition report
+
+dated, signed, profile-scoped assessment of the physical condition of an object
+
+[[term-fw-12-08]]
+=== restitution flag
+
+authority-attached marker on a passport recording a claim over title, such as looting, dispossession or colonial taking, propagated as a graph event without rewriting history

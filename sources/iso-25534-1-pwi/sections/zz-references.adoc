@@ -1,0 +1,128 @@
+[bibliography]
+== Bibliography
+
+* [[[AWI25534,ISO/AWI 25534-1:2026]]], _Digital product passport — Part 1: Overview and fundamental principles_, working draft of 2026-09-05, ISO/IEC JTC 5
+
+* [[[CWA18291,CWA 18291:2025]]], _TRICK — Guidelines on data collection from Textile supply chains for the Digital Product Passport_
+
+* [[[ECLASS,ECLASS]]], _ECLASS — the reference data standard for the classification and description of products and services_, ECLASS e.V., current release
+
+* [[[EN18216,EN 18216:2026]]], _Digital Product Passport — Data exchange protocols_
+
+* [[[EN18219,EN 18219:2026]]], _Digital Product Passport — Unique identifiers_
+
+* [[[EN18220,EN 18220:2026]]], _Digital product passport — Data carriers_
+
+* [[[EN18221,EN 18221:2026]]], _Digital Product Passport — Data storage, archiving, and data persistence_
+
+* [[[EN18222,EN 18222:2026]]], _Digital Product Passport — Application Programming Interfaces (APIs) for the product passport lifecycle management and searchability_
+
+* [[[EN18223,EN 18223:2026]]], _Digital Product Passport — System interoperability_
+
+* [[[EN18239,EN 18239:2026]]], _Digital Product Passport — Access rights management, information system security, and business confidentiality_ (citations verified against the prEN 18239:2025 enquiry draft)
+
+* [[[EN18246,EN 18246:2026]]], _Digital product passport — Data authentication, reliability and integrity_ (citations verified against the prEN 18246:2025 enquiry draft)
+
+* [[[I40GLOSS,Glossar Industrie 4.0]]], _Glossar Industrie 4.0_ [Industrie 4.0 glossary], German Industrie 4.0 community glossary, current release
+
+* [[[IDTA01001,IDTA 01001-3.2:2026]]], _Specification of the Asset Administration Shell — Part 1: Metamodel_, Industrial Digital Twin Association
+
+* [[[IEC61360,IEC 61360-1:2016]]], _Standard data element types with associated classification scheme — Part 1: Definitions — Principles and methods_
+
+* [[[IEC61499,IEC 61499-1]]], _Function blocks — Part 1: Architecture_
+
+* [[[IEC61666,IEC 61666:2010+AMD1:2021 CSV]]], _Industrial systems, installations and equipment and industrial products — Identification of terminals within a system_
+
+* [[[IEC62569,IEC 62569-1:2017]]], _Generic specification of information on products by properties — Part 1: Principles and methods_
+
+* [[[IEC62890,IEC 62890:2016]]], _Life-cycle management for systems and products used in industrial-process measurement, control and automation_
+
+* [[[IEC63278,IEC 63278-1:2023]]], _Industrial-process measurement, control and automation — Asset administration shell for industrial applications — Part 1: Concept_
+
+* [[[IECTR62390,IEC TR 62390:2005]]], _Common automation device — Profile guideline_
+
+* [[[IECTS62443,IEC TS 62443-1-1]]], _Industrial communication networks — Network and system security — Part 1-1: Terminology, concepts and models_
+
+* [[[IEEE8802-1AR,ISO/IEC/IEEE 8802-1AR]]], _Telecommunications and information exchange between information systems — Local and metropolitan area networks — Specific requirements — Part 1AR: Secure device identity_
+
+* [[[IEV741,IEC 60050-741:2020]]], _International Electrotechnical Vocabulary — Part 741: Digital twin_
+
+* [[[IICVOC,Industrial Internet Vocabulary]]], _Industrial Internet Vocabulary_, version V2.3 (IIC:IIVOC:V2.3:20201025), Industrial Internet Consortium
+
+* [[[ISO14025,ISO 14025:2006]]], _Environmental labels and declarations — Type III environmental declarations — Principles and procedures_
+
+* [[[ISO14025EN,EN ISO 14025:2010]]], _Environmental labels and declarations — Type III environmental declarations — Principles and procedures_
+
+* [[[ISO14040,ISO 14040:2006]]], _Environmental management — Life cycle assessment — Principles and framework_
+
+* [[[ISO15531,ISO 15531-43]]], _Industrial automation systems and integration — Industrial manufacturing management data — Part 43: Manufacturing flow management data: Data model for flow monitoring and manufacturing data exchange_
+
+* [[[ISO18308,ISO 18308:2011]]], _Health informatics — Requirements for an electronic health record architecture_
+
+* [[[ISO18435,ISO 18435-1:2009]]], _Industrial automation systems and integration — Diagnostics, capability assessment and maintenance applications integration — Part 1: Overview and general requirements_
+
+* [[[ISO22095,ISO 22095:2020]]], _Chain of custody — General terms and models_
+
+* [[[ISO22274,ISO 22274:2013]]], _Systems to manage terminology, knowledge and content — Concept relations and their internationalization_
+
+* [[[ISO23234,ISO 23234:2021]]], _Buildings and civil engineering works — Security — Planning of security measures in the built environment_
+
+* [[[ISO24533-2,ISO 24533-2:2022]]], _Intelligent transport systems — Electronic information exchange to facilitate the movement of freight and its intermodal transfer — Part 2: Common reporting system methodology_
+
+* [[[ISO24619,ISO 24619:2011]]], _Language resource management — Persistent identification and sustainable access (LIRI)_
+
+* [[[ISO29404,ISO 29404:2015]]], _Project, programme and portfolio management — Vocabulary_
+
+* [[[ISO5157,ISO 5157:2023]]], _Textiles — Environmental aspects — Vocabulary_
+
+* [[[ISO59004,ISO 59004:2024]]], _Circular economy — Vocabulary, principles and guidance for implementation_
+
+* [[[ISO59040,ISO 59040]]], _Circular economy — Product circularity data sheet_
+
+* [[[ISO7498-2,ISO 7498-2:1989]]], _Information processing systems — Open Systems Interconnection — Basic Reference Model — Part 2: Security Architecture_
+
+* [[[ISO80000-3,ISO 80000-3]]], _Quantities and units — Part 3: Space and time_
+
+* [[[ISO8601-1,ISO 8601-1:2019]]], _Date and time — Representation for information interchange — Part 1: Basic rules_
+
+* [[[ISO9000,ISO 9000:2015]]], _Quality management systems — Fundamentals and vocabulary_
+
+* [[[ISOIEC10746,ISO/IEC 10746-2]]], _Information technology — Open Distributed Processing — Reference Model: Foundations_
+
+* [[[ISOIEC15459-1,ISO/IEC 15459-1]]], _Information technology — Automatic identification and data capture techniques — Unique identification — Part 1: Individual transport units_
+
+* [[[ISOIEC17000,ISO/IEC 17000:2020]]], _Conformity assessment — Vocabulary and general principles_
+
+* [[[ISOIEC18975,ISO/IEC 18975:2024]]], _Information technology — Automatic identification and data capture techniques — Encoding and resolving identifiers over HTTP_
+
+* [[[ISOIEC19762,ISO/IEC 19762 (all parts)]]], _Information technology — Automatic identification and data capture (AIDC) techniques — Harmonized vocabulary_
+
+* [[[ISOIEC20248,ISO/IEC 20248:2022]]], _Information technology — Automatic identification and data capture techniques — Digital signature data structure schema_
+
+* [[[ISOIEC22123,ISO/IEC 22123-1:2023]]], _Information technology — Cloud computing — Part 1: Terminology_
+
+* [[[ISOIEC24760,ISO/IEC 24760-1]]], _Information technology — Security techniques — A framework for identity management — Part 1: Terminology and concepts_
+
+* [[[ISOIEC27000,ISO/IEC 27000]]], _Information technology — Security techniques — Information security management systems — Overview and vocabulary_
+
+* [[[ISOIEC27031,ISO/IEC 27031]]], _Information technology — Security techniques — Guidelines for information and communication technology readiness for business continuity_
+
+* [[[ISOIEC29180,ISO/IEC 29180:2012]]], _Information technology — Telecommunications and information exchange between systems — Security framework for ubiquitous sensor networks (USN)_
+
+* [[[ISOIEC6523,ISO/IEC 6523-1]]], _Information technology — Structure for the identification of organizations and organization parts — Part 1: Identification of organization identification schemes_
+
+* [[[ISOIECGuide2,ISO/IEC Guide 2:2004]]], _Standardization and related activities — General vocabulary_
+
+* [[[ISOIECGuide77,ISO/IEC Guide 77-2:2008]]], _Guide for specification of product properties and classes — Part 2: Technical principles and guidance_
+
+* [[[ISOTS24533,ISO/TS 24533:2012]]], _Intelligent transport systems — Electronic information exchange to facilitate the movement of freight and its intermodal transfer — Road transport information exchange_
+
+* [[[UNECE46,UNECE Recommendation No. 46]]], _Enhancing traceability and transparency of sustainable value chains in the garment and footwear sector_, United Nations Economic Commission for Europe
+
+* [[[UNEP_EA4_Res1,UNEP/EA.4/Res.1]]], _Resolution adopted by the United Nations Environment Assembly_
+
+* [[[UNEP_Toledano_2023,UNEP, Toledano, Bauch and Arnold 2023]]], cited in the ISO/AWI 25534-1, 3.4 source
+
+* [[[UNEP_DTI2532,UNEP Job no. DTI/2532/PA]]], cited in the ISO/AWI 25534-1, 3.8 source
+
+* [[[UNTP,UN/CEFACT]]], _UN Transparency Protocol (UNTP)_, current development draft

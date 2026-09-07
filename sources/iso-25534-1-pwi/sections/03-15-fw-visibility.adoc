@@ -1,0 +1,67 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: visibility and enumeration resistance
+
+[[term-dpp-0136]]
+=== blind edge
+
+edge on a typed passport relationship whose existence and endpoints are concealed from all observers, so that a child-to-parent reference does not reveal where a thing is, such as a household or a site
+
+NOTE: Edge visibility classes, namely public, restricted (role-qualified), blind and escrowed, are declared on every relationship; the installation schema (concept dpp-0142) carries visibility as an edge class with escrow arrangement (concept dpp-0137) and audiences.
+
+NOTE: Blind is the default for consumer installations, because even the object-to-household linkage is personal data requiring a GDPR or PIPL legal basis per profile.
+
+NOTE: Rationale: a traversable graph with entitled upstream observers is surveillance infrastructure; post-sale visibility into instance state is owner-push or authority-based, never maker-pull.
+
+[[term-dpp-0137]]
+=== escrowed disclosure
+
+edge visibility arrangement in which information concealed by a blind edge (concept dpp-0136) is deposited with a threshold trustee and released only through a disclosure ceremony, namely court, regulator or consent
+
+NOTE: The installation schema records escrow as none or trustee, with declared audiences.
+
+NOTE: An escrow envelope under a threshold trustee may optionally accompany a proof of binding (concept dpp-0138), preserving verifiability while full disclosure remains ceremonial.
+
+[[term-dpp-0138]]
+=== proof of binding
+
+salted cryptographic commitment to the parent, recorded in the child's event log, by which a child satisfies the bidirectional parent-knowledge requirement without disclosing the identity of the parent
+
+NOTE: Proof of binding is distinct from knowledge of parent: verifiable modes establish that the child is validly installed in some parent under a given profile (warranty, compliance) without revealing which parent; full disclosure occurs only by ceremony.
+
+NOTE: An optional escrow envelope under a threshold trustee (concept dpp-0137) accompanies the commitment where future disclosure must remain possible.
+
+[[term-dpp-0139]]
+=== enumeration resistance
+
+system property by which the passport system is verifiable without being browsable: resolution is by identity only, traversal requires per-edge rights, and no party, including any registry, resolver network or log operator, can enumerate the installed base of anything
+
+NOTE: Transparency logs anchor commitments (hashes), never facts, so log operators cannot correlate edges; accumulator and blind-membership proofs give valid-standing checks without revealing which or where.
+
+NOTE: Stated as design invariant I12, together with blind edges by default where households or sites are revealed (concept dpp-0136), proof of binding distinct from knowledge of parent (concept dpp-0138), and predicate-based recall (concept dpp-0140).
+
+[[term-dpp-0140]]
+=== predicate-based recall
+
+recall scheme in which the recall set is never enumerated centrally: the recall predicate is published, and each custodian evaluates it locally against their own holdings, including dark and defence holdings under national procedure, and acts
+
+NOTE: The manufacturer receives aggregates or nothing; there is no traversal-push enumeration of the installed base.
+
+NOTE: One of the mechanisms by which enumeration resistance (concept dpp-0139) is maintained: recall propagation still notifies custodians transitively, but through local predicate evaluation rather than central construction of the recall set.
+
+[[term-fw-15-06]]
+=== owner-push disclosure
+
+disclosure of instance state initiated by the owner, such as a warranty registration, as the default manufacturer-visibility channel
+
+NOTE: A manufacturer-initiated pull of instance state is not a channel of the framework; authority-based compulsion of traversal is a separate, legal-basis-governed mechanism.
+
+[[term-fw-15-07]]
+=== dark identity
+
+identity that is resolvable only within a restricted resolution domain, such as a national domain, and never enters the global resolver
+
+[[term-fw-15-08]]
+=== confidential profile
+
+registered profile whose register item is non-public and which carries restricted resolution, edge-visibility and traversal fields, used for defence and sovereignty configurations

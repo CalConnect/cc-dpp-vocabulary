@@ -1,0 +1,462 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to semantics and profiles
+
+[[dpp-0086]]
+=== interoperability
+
+ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged
+
+NOTE: Regional variant: the definition recorded from the merged concept pair was: capability of two or more entities to exchange items in accordance with a set of rules and mechanisms implemented by an interface in each entity, in order to perform their specified tasks
+
+[.source]
+<<ISOIEC22123,clause="3.6.1">>, <<EN18223,clause="3.1">>, similar, <<ISO18435,clause="3.12">>, similar, <<EN18219,clause="3.1.7">>
+
+
+
+[[dpp-0088]]
+=== semantic interoperability
+
+ability for data shared by systems to be understood at the level of fully defined domain concepts
+
+[.source]
+<<ISO18308,clause="3.45">>, <<EN18223,clause="3.2">>
+
+
+
+[[dpp-0089]]
+=== technical interoperability
+
+ability that covers the applications and infrastructures linking systems and services
+
+[.source]
+<<EN18223,clause="3.3">>
+
+
+
+[[dpp-0090]]
+=== application programming interface
+
+set of methods ({{method}}) provided by an application component for use by other application components
+
+[.source]
+<<EN18222,clause="3.1">>
+
+
+
+[[dpp-0091]]
+=== representational state transfer application programming interface
+
+service that allows for interaction with resources via a stateless, client-server architecture, typically using standard HTTP calls like GET, POST, PUT, and DELETE to perform methods ({{method}}) by an application component on these resources
+
+[.source]
+<<EN18222,clause="3.1.1">>
+
+
+
+[[dpp-0092]]
+=== method
+
+particular way used to perform a specific action on a resource
+
+[example]
+--
+read a DPP
+--
+
+[.source]
+<<EN18222,clause="3.3">>
+
+
+
+[[dpp-0093]]
+=== parameter
+
+data provided by a client, that is needed to perform a method ({{method}})
+
+[example]
+--
+DPP ID for read DPP
+--
+
+[.source]
+<<EN18222,clause="3.4">>
+
+
+
+[[dpp-0094]]
+=== result
+
+return value after the execution of a method ({{method}})
+
+[example]
+--
+the DPP
+--
+
+[.source]
+<<EN18222,clause="3.5">>
+
+
+
+[[dpp-0095]]
+=== data exchange
+
+storing, accessing, transferring, and archiving of data
+
+[.source]
+<<ISO15531,clause="3.1.5">>, <<EN18216,clause="3.2">>
+
+
+
+[[dpp-0096]]
+=== application
+
+software functional element specific to the solution of a problem in industrial-process measurement and control
+
+NOTE: An application can be distributed among resources and may communicate with other applications.
+
+[.source]
+<<IECTR62390,clause="3.1.2">>, <<IDTA01001,clause="1.1.2">>
+
+
+
+[[dpp-0097]]
+=== asset
+
+entity owned by or under the custodial duties of an organization, which has either a perceived or actual value to the organization
+
+NOTE: An asset can be single entity, a collection of entities, an assembly of entities or a composition of entities.
+
+[example]
+--
+Examples for physical entities are equipment, raw material, parts components and pieces, supplies, consumables, physical products, and waste.
+--
+
+[example]
+--
+Software is an example of a digital asset.
+--
+
+[example]
+--
+A software license is an example of an intangible asset.
+--
+
+[.source]
+<<IEC63278>>, modified, <<IDTA01001,clause="1.1.3">>
+
+
+
+[[dpp-0098]]
+=== attribute
+
+data element of a property, a relation, or a class in information technology
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.4">>
+
+
+
+[[dpp-0099]]
+=== Asset Administration Shell
+
+standardized digital representation of an asset
+
+NOTE: Asset Administration Shell and Administration Shell are used synonymously.
+
+[.source]
+<<IEC63278>>, modified, <<IDTA01001,clause="1.1.5">>
+
+
+
+[[dpp-0100]]
+=== class
+
+description of a set of objects that share the same attributes, operations, methods, relationships, and semantics
+
+[.source]
+<<IECTR62390,clause="3.1.4">>, <<IDTA01001,clause="1.1.6">>
+
+
+
+[[dpp-0101]]
+=== capability
+
+implementation-independent potential of a component to achieve an effect within a domain
+
+NOTE: Capabilities can be orchestrated and structured hierarchically.
+
+NOTE: Capabilities can be made executable via services.
+
+NOTE: The impact manifests itself in a measurable effect within the physical world.
+
+[.source]
+<<I40GLOSS>>, modified, <<IDTA01001,clause="1.1.7">>
+
+
+
+[[dpp-0102]]
+=== coded value
+
+value that can be looked up in a dictionary and can be translated
+
+[.source]
+<<ECLASS>>, <<IDTA01001,clause="1.1.8">>
+
+
+
+[[dpp-0103]]
+=== component
+
+product used as a constituent in an assembled product, system, or plant
+
+[.source]
+<<IEC63278,clause="3.6">>, <<IDTA01001,clause="1.1.9">>
+
+
+
+[[dpp-0104]]
+=== concept
+
+unit of knowledge created by a unique combination of characteristics
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.10">>
+
+
+
+[[dpp-0105]]
+=== digital representation
+
+information and services representing an entity from a given viewpoint
+
+[example]
+--
+Examples of information are properties (e.g. maximum temperature), actual parameters (e.g. actual velocity), events (e.g. notification of status change), schematics (electrical), and visualization information (2D and 3D drawings).
+--
+
+[example]
+--
+Examples of services are asset services (for example providing the history of the configuration data or providing the actual velocity) and asset related services (for example providing a simulation).
+--
+
+[example]
+--
+Examples of viewpoints are mechanical, electrical, or commercial characteristics.
+--
+
+[.source]
+<<IEC63278>>, modified, <<IDTA01001,clause="1.1.11">>
+
+
+
+[[dpp-0106]]
+=== digital twin
+
+digital representation, sufficient to meet the requirements of a set of use cases
+
+NOTE: In this context, the entity in the definition of digital representation is typically an asset.
+
+[.source]
+<<IDTA01001,clause="1.1.12">>
+
+
+
+[[dpp-0107]]
+=== explicit value
+
+commonly used concept, like numbers (e.g. 109, 25) which do not need lookup in dictionaries
+
+[.source]
+<<ECLASS>>, <<IDTA01001,clause="1.1.13">>
+
+
+
+[[dpp-0108]]
+=== instance
+
+concrete, clearly identifiable component of a certain type
+
+NOTE: An individual entity of a type, for example a device, is obtained by defining specific property values.
+
+NOTE: In an object-oriented view, an instance denotes an object of a class (of a type).
+
+[.source]
+<<IEC62890>>, modified, <<IDTA01001,clause="1.1.15">>
+
+
+
+[[dpp-0109]]
+=== instance asset
+
+specific asset that is uniquely identifiable
+
+[example]
+--
+Examples of instance assets are material, a product, a part, a device, a machine, software, a control system, or a production system.
+--
+
+[.source]
+<<IEC63278>>, modified, <<IDTA01001,clause="1.1.16">>
+
+
+
+[[dpp-0110]]
+=== operation
+
+executable realization of a function
+
+NOTE: The term method is synonymous to operation.
+
+NOTE: An operation has a name and a list of parameters [ISO 19119:2005, 4.1.3].
+
+[.source]
+<<I40GLOSS>>, modified, <<IDTA01001,clause="1.1.17">>
+
+
+
+[[dpp-0111]]
+=== property
+
+defined characteristic suitable for the description and differentiation of products or components
+
+NOTE: The concept of type and instance applies to properties.
+
+NOTE: This definition applies to properties as described in IEC 61360/ ISO 13584-42.
+
+NOTE: The property types are defined in dictionaries (like IEC component data dictionary or ECLASS), they do not have a value. The property type is also called data element type in some standards.
+
+NOTE: The property instances have a value and are provided by the manufacturers. A property instance is also called property-value pair in certain standards.
+
+NOTE: Properties include nominal value, actual value, runtime variables, measurement values, etc.
+
+NOTE: A property describes one characteristic of a given object.
+
+NOTE: The specification of a property can include predefined choices of values.
+
+[.source]
+<<I40GLOSS>>, modified, <<IDTA01001,clause="1.1.18">>
+
+
+
+[[dpp-0112]]
+=== qualifier
+
+well-defined element associated with a property instance or SubmodelElement, restricting the value statement to a certain period of time or use case
+
+NOTE: Qualifiers can have associated values.
+
+[.source]
+<<IEC62569>>, <<IDTA01001,clause="1.1.19">>
+
+
+
+[[dpp-0113]]
+=== service
+
+distinct part of the functionality that is provided by an entity through interfaces
+
+[.source]
+<<IEC63278,clause="741-01-28">>, <<IDTA01001,clause="1.1.20">>
+
+
+
+[[dpp-0114]]
+=== Submodel
+
+representation of an aspect of an asset
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.21">>
+
+
+
+[[dpp-0115]]
+=== SubmodelElement
+
+element of a Submodel
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.22">>
+
+
+
+[[dpp-0116]]
+=== Submodel template
+
+template for the representation of an aspect of an asset
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.23">>
+
+
+
+[[dpp-0117]]
+=== Submodel template element
+
+element of a Submodel template
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.24">>
+
+
+
+[[dpp-0118]]
+=== system
+
+interacting, interrelated, or interdependent elements forming a complex whole
+
+[.source]
+<<IEC63278,clause="3.2.123">>, <<IDTA01001,clause="1.1.25">>
+
+
+
+[[dpp-0119]]
+=== template
+
+specification of the common features of an object in sufficient detail that such object can be instantiated using it
+
+NOTE: Object can be anything that has a type.
+
+[.source]
+<<ISOIEC10746>>, <<IDTA01001,clause="1.1.26">>
+
+
+
+[[dpp-0120]]
+=== type
+
+hardware or software element which specifies the common attributes shared by all instances of the type
+
+[.source]
+<<IECTR62390,clause="3.1.25">>, <<IDTA01001,clause="1.1.27">>
+
+
+
+[[dpp-0121]]
+=== type asset
+
+(abstract) representation of a set of instance assets with common characteristics and features
+
+NOTE: The set of instance assets may exist or may not exist.
+
+[example]
+--
+Examples of type assets are type of material, a product type, a type of a part, a device type, a machine type, a type of software, a type of control system, a type of production system.
+--
+
+[.source]
+<<IEC63278>>, <<IDTA01001,clause="1.1.28">>
+
+
+
+[[dpp-0122]]
+=== variable
+
+software entity that may take different values, one at a time
+
+[.source]
+<<IEC61499>>, <<IDTA01001,clause="1.1.29">>
+
+

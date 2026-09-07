@@ -1,0 +1,271 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to actors and issuance
+
+[[dpp-0032]]
+=== economic operator
+
+manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider
+
+NOTE: Regional variant: the definition recorded from the merged concept pair was: manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider that places the product on the market
+
+[.source]
+<<EN18219,clause="3.1.5">>, similar, <<EN18220,clause="3.7">>, similar, <<EN18221,clause="3.1">>
+
+
+
+[[dpp-0034]]
+=== digital product passport service provider
+
+natural or legal person that is an independent third party authorized by the economic operator ({{economic operator}}) that places the product on the market or puts it into service and that processes the digital product passport data for that product for the purpose of making such data available to economic operators and other relevant actors with a right to access those data
+
+[.source]
+<<EN18221,clause="3.3">>
+
+
+
+[[dpp-0035]]
+=== main digital product passport service provider
+
+digital product passport service provider ({{digital product passport service provider}}) that is hosting the digital product passport ({{digital product passport}}) on behalf of the economic operator ({{economic operator}}) if the economic operator chooses not to host the digital product passport themselves
+
+[.source]
+<<EN18221,clause="3.3.1">>
+
+
+
+[[dpp-0036]]
+=== back-up digital product passport service provider
+
+digital product passport service provider ({{digital product passport service provider}}) that is hosting the back-up copy of the digital product passport ({{digital product passport}})
+
+[.source]
+<<EN18221,clause="3.3.2">>
+
+
+
+[[dpp-0037]]
+=== issuing agency
+
+organisation entrusted by a Registration Authority (RA) to manage unique identification schemes
+
+[.source]
+<<EN18219,clause="3.1.8">>
+
+
+
+[[dpp-0038]]
+=== actor
+
+organization or individual that fulfils a role
+
+[.source]
+<<ISO23234,clause="3.4">>, <<EN18239,clause="3.7">>
+
+
+
+[[dpp-0039]]
+=== notified actor
+
+organization or individual entitled by an authorized accrediting body or authority, that fulfils a role in the DPP lifecycle
+
+[.source]
+<<EN18239,clause="3.8">>
+
+
+
+[[dpp-0040]]
+=== consumer
+
+individual member of the general public purchasing or using goods, property or services for private purposes
+
+[.source]
+<<ISO14025EN,clause="3.16">>, <<EN18219,clause="3.1.2">>, <<EN18220,clause="3.4">>, <<CWA18291,clause="3.24">>
+
+
+
+[[dpp-0041]]
+=== customer
+
+organization or person that receives a product
+
+NOTE: The customer may be the user or a distributor [SOURCE: ISO 9000].
+
+[.source]
+<<ISO9000>>, <<CWA18291,clause="3.23">>
+
+
+
+[[dpp-0042]]
+=== expert
+
+expert in charge of performing a study
+
+[.source]
+<<CWA18291,clause="3.8">>
+
+
+
+[[dpp-0043]]
+=== reviewer
+
+expert in charge of reviewing a study
+
+[.source]
+<<CWA18291,clause="3.9">>
+
+
+
+[[dpp-0044]]
+=== exporter
+
+name and address of the person who makes, or on whose behalf the "export declaration" is made, and who is the owner of the goods or has similar right of disposal over them at the time when the declaration is accepted
+
+[.source]
+<<ISOTS24533>>, <<CWA18291,clause="3.10">>
+
+
+
+[[dpp-0045]]
+=== seller
+
+company or company function that sells a product
+
+[.source]
+<<CWA18291,clause="3.11">>
+
+
+
+[[dpp-0046]]
+=== subcontractor
+
+company or company function that performs activities as a sub-contractor (for example cutting/sewing operations but also dyeing)
+
+[.source]
+<<CWA18291,clause="3.12">>
+
+
+
+[[dpp-0047]]
+=== buyer
+
+individual or entity purchasing goods or services
+
+[.source]
+<<ISO24533-2>>, <<CWA18291,clause="3.13">>
+
+
+
+[[dpp-0048]]
+=== producer
+
+company or company function that produces final or non-final fashion products (yarns, fabrics, garments, accessories, footwear, etc.); its industrial process has in input materials and in output components or final fashion goods for the business customers or final customers
+
+[.source]
+<<CWA18291,clause="3.14">>
+
+
+
+[[dpp-0049]]
+=== supplier
+
+company or company function that produces non final products (accessories, fabrics, yarns…); its industrial process has in input materials and in output components for the business customers
+
+[.source]
+<<CWA18291,clause="3.15">>
+
+
+
+[[dpp-0050]]
+=== yarn producer
+
+company or company function that produces yarns from raw material; it has mainly Fabric and Knitwear producers as customers (Apparel Producers sometimes)
+
+[.source]
+<<CWA18291,clause="3.16">>
+
+
+
+[[dpp-0051]]
+=== retailer
+
+company or company function that sells garments to the Consumer. It is a client of Apparel Producer, Knitwear Producer, and Yarn Producer
+
+[.source]
+<<CWA18291,clause="3.17">>
+
+
+
+[[dpp-0052]]
+=== apparel producer
+
+company or company function that organizes manufacturing and material supplying to obtain finished garments from fabrics. It is a client of Fabric Producer and partially of Yarn Producer
+
+[.source]
+<<CWA18291,clause="3.18">>
+
+
+
+[[dpp-0053]]
+=== sorter
+
+person or a system that categorizes discarded textile materials by their fibre composition, color, and condition to determine their potential for reuse, repair, or recycling
+
+[.source]
+<<CWA18291,clause="3.19">>
+
+
+
+[[dpp-0054]]
+=== textile collector
+
+actor involved in separate collection of textiles
+
+[.source]
+<<ISO5157>>, <<CWA18291,clause="3.20">>
+
+
+
+[[dpp-0055]]
+=== recycler
+
+company or company function that performs activities to obtain recovered resources for use in a process or a product, excluding energy recovery
+
+NOTE: Activities to obtain resources include activities such as recovery, collection, transport, sorting, cleaning, and re-processing.
+
+NOTE: Recycling does not include reuse.
+
+[.source]
+<<ISO59004>>, <<CWA18291,clause="3.22">>
+
+
+
+[[dpp-0056]]
+=== eService platform
+
+platform for eBusiness centralized services
+
+[.source]
+<<CWA18291,clause="3.5">>
+
+
+
+[[dpp-0057]]
+=== traceability platform
+
+platform dedicated to traceability services
+
+[.source]
+<<CWA18291,clause="3.6">>
+
+
+
+[[dpp-0058]]
+=== sustainability management platform
+
+platform dedicated to sustainability data collection, management and reporting
+
+[.source]
+<<CWA18291,clause="3.7">>
+
+

@@ -1,0 +1,68 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: provenance, identity lattice and edge segments
+
+[[term-fw-10-01]]
+=== provenance class
+
+declared category of a fact according to how it entered the record: declared at type level, measured at instance level under a stated method and uncertainty, or computed by a stated transform
+
+[[term-fw-10-02]]
+=== precedence rule
+
+rule declared by a profile stating which provenance class prevails when facts about the same subject disagree
+
+NOTE: The default precedence is instance-measured over type-declared; a genuine same-class contradiction is an integrity incident, never a silent merge.
+
+[[term-fw-10-03]]
+=== roll-up attestation
+
+signed attestation giving an aggregate over a committed traversal set of child passports, verifiable without fetching every member of the set
+
+[[term-fw-10-04]]
+=== traversal set
+
+committed, hash-identified set of passport versions over which a roll-up attestation or a graph traversal is computed
+
+[[term-fw-10-05]]
+=== edge segment
+
+part of the event-sourced record of a subject that originates on the subject's own device and is published through device commitments
+
+NOTE: The device is a tier of the passport system, not a client; it commits now and reveals later, but never contradicts.
+
+[[term-fw-10-06]]
+=== device commitment
+
+signature by a device-bound key over the hash of a prefix of the device's local append-only event log, published so that later disclosures are inclusion-consistent with past commitments
+
+[[term-fw-10-07]]
+=== configuration vector
+
+exact combination of registered component options that, together with a model, constitutes a configured product instance
+
+[[term-fw-10-08]]
+=== type version
+
+versioned state of a type passport capturing hardware revisions and type-declared facts, referenced exactly by the instance passports derived from it
+
+[[term-fw-10-09]]
+=== derived type
+
+new type resulting from a regulated modification of an existing type, recorded as a derivation event in the identity lattice
+
+[[term-dpp-0135]]
+=== dormant identifier
+
+identifier recorded at the finest available granularity for an object class for which no passport regime yet exists, held as issuance evidence for adoption by a future regime
+
+NOTE: When a future regime issues passports for the object class it adopts the recorded dormant identifiers rather than minting new ones, so that the installed base connects retroactively through its build records.
+
+NOTE: Inputs are recorded even when no passport exists behind them yet; minting fresh identifiers would orphan the installed base.
+
+[[term-fw-10-11]]
+=== dormant-to-live adoption
+
+act of a future passport regime of issuing passports by adopting the identifiers already recorded as dormant for the object class, rather than minting new ones
+
+NOTE: Adoption connects the installed base retroactively through its build records; minting fresh identifiers would orphan it.

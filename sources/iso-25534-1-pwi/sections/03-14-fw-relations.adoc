@@ -1,0 +1,83 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: passport relationship algebra
+
+[[term-fw-14-01]]
+=== association
+
+typed, navigational passport relationship, such as compatibility, supply or same-maker, carrying no lifecycle impact
+
+[[term-dpp-0142]]
+=== installation
+
+typed structural relationship, and its event class, between a parent passport and an installed child component, recorded with method, slot identity, pairing, alterations, performer and time, which makes an installed component a different legal object from the standalone one
+
+NOTE: Schema: install(child, parent, method, slotId, pairing (none, firmware, key or module), alterations, performedBy, at).
+
+NOTE: Bidirectional parent knowledge is mandatory: the parent's manifest lists children and the child's event log records its installation interval (parent, slot, method), for recall routing, scoped service access, ownership transfer and end-of-life routing.
+
+NOTE: Lifecycle coupling: warranty re-scope and service economics ride the parent, and the part is no longer sellable as new; custody transfer (concept dpp-0134) remains orthogonal, since ownership changes while composition stays fixed.
+
+NOTE: The recoverability of the binding (concept dpp-0143) determines identity continuity: disassembly that restores a marketable object with identity continuity is installation, while dissolving identity is a transformation event (concept dpp-0129). Part replacement is an uninstall followed by an install, and regulated children keep their own passports through it.
+
+[[term-fw-14-03]]
+=== membership
+
+temporal relationship between a passport and a group node, such as a shipment, consignment, kit, fleet or recall set
+
+[[term-fw-14-04]]
+=== group node
+
+queryable grouping of passports that receives a passport of its own only when the group is itself placed on the market
+
+[[term-fw-14-05]]
+=== binding strength
+
+declared permanence of an installation binding, ranging from reversible fastening to destructive integration
+
+[[term-fw-14-06]]
+=== slot identity
+
+parent-scoped identifier of an installation position by which an installed child is re-identified within its parent
+
+[[term-fw-14-07]]
+=== pairing
+
+recorded binding of a child to its parent context, by firmware, key or module, that is re-established when a component is replaced
+
+[[term-fw-14-08]]
+=== absorbed component
+
+input whose identity dissolves into its parent and is therefore modelled as a transformation input rather than a live child, recorded at the finest available granularity as dormant identifiers
+
+[[term-dpp-0143]]
+=== recoverability
+
+declared property of an installation binding (concept dpp-0142) stating whether and how the installed child can resume an independent existence, taking one of the values restorable, harvestable, destructive or absorbing
+
+NOTE: Restorable: the child resumes standalone life; harvestable: recovered but altered, continuing with harvested status and parent history (concept dpp-0144); destructive: the child ceases and flows to a material passport through a transformation event (concept dpp-0129); absorbing: identity dissolves into the parent.
+
+NOTE: Absorption is regime-temporal rather than permanent: absorbed inputs are recorded at the finest available granularity as dormant identifiers (concept dpp-0135), issuable by adoption when a future regime requires passports for the object class.
+
+NOTE: Carried in the EXPRESS core as part of the PassportLink binding (method, recoverability).
+
+[[term-dpp-0144]]
+=== harvested part
+
+component recovered from an installation (concept dpp-0142) in the harvestable state of the recoverability spectrum (concept dpp-0143), which continues to carry its own identity, harvested status and the parent history accumulated during installation
+
+NOTE: Installation history is value-relevant provenance: a harvested battery sold standalone carries its service interval and removal reason, and the used-parts market runs on this.
+
+NOTE: A harvested part is second-hand-once-removed: no longer sellable as new, with warranty scope and service economics that rode the parent during installation.
+
+[[term-dpp-0134]]
+=== custody transfer
+
+signed ceremony recording the transfer of responsibility for an object between custodians, appended to the event chain by the custodian and the counterparty, which extends and never overwrites the trail across successive owners
+
+NOTE: Custody links are social and control edges, orthogonal to structural composition: ownership changes while composition stays fixed.
+
+[[term-fw-14-12]]
+=== custodian
+
+actor that currently holds the live event segment of a subject's record and is authorized to append custody-relevant events to it

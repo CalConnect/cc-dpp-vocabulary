@@ -1,0 +1,63 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: profiles, lenses and jurisdiction
+
+[[term-dpp-0124]]
+=== profile
+
+registered, versioned object that binds a set of data points, transforms, cryptographic suites, trust requirements, access policies, presentation requirements and a trigger predicate to the neutral core passport, constraining and transforming, but never redefining, the single definition of each data point
+
+NOTE: Composition is three-axial: jurisdiction, sector, characteristic.
+
+NOTE: Each profile is a projection function, view(twinState, profile, actor), whose projection may transform and not merely select.
+
+NOTE: Profiles constrain and transform; inter-profile disagreement is expected and auditable, while intra-class contradiction is an integrity incident (single definition, many constraints).
+
+[[term-dpp-0127]]
+=== lens
+
+profile conceived as a calibrated measuring instrument placed on the digital twin, which selects and transforms without altering the observed scene
+
+NOTE: The mount, the profile interface on the neutral core, is the standardized element: any registered lens by any maker attaches to it.
+
+NOTE: A lens publishes its calibration (version and cited rules), its uncertainty and its decision rules; it is subject to pattern approval at registration and to periodic re-verification through conformance runs.
+
+NOTE: Verification path-finds from any render through the lens and its fact chain to an anchor in the verifier's trust bundle.
+
+[[term-fw-8-03]]
+=== lens mount
+
+standardized interface of the neutral core through which any registered profile is attached to and operates on the record of the subject, such that profiles from any registering authority compose without proprietary binding
+
+NOTE: The mount, not any single profile technology, is the interoperation point; standardizing it precludes lock-in to a proprietary profile mechanism.
+
+[[term-fw-8-04]]
+=== jurisdiction profile
+
+profile that binds the data points, transforms, cryptographic suites, trust requirements, access rules, presentation and carrier requirements enacted by the law of a given jurisdiction
+
+NOTE: Conflicting regional rules are registered as distinct data elements harmonized to a common concept; they are not merged.
+
+[[term-fw-8-05]]
+=== sector overlay
+
+profile that composes with other profiles to add the data points, transforms and rules applicable to an industry sector, such as electronics, textiles, batteries, construction, tyres or packaging
+
+[[term-fw-8-06]]
+=== applicable law
+
+totality of legal rules that apply to a subject placed on a market, represented in the passport system by the corresponding jurisdiction profile and its dated applicability bindings
+
+[[term-fw-8-07]]
+=== as-of query
+
+query against the event-sourced record of a subject that reconstructs the state that was legally valid at a specified past time
+
+NOTE: As-of queries are answered from notarized snapshots, log anchoring and recorded profile-version bindings, for example to establish whether a product was compliant when sold.
+
+[[term-fw-8-08]]
+=== trust list
+
+signed, registry-deposited list of the trust anchors accredited to act under a given profile or jurisdiction, served with status and revocation information
+
+NOTE: Jurisdictional trust lists relate to one another through a multi-witnessed master list.

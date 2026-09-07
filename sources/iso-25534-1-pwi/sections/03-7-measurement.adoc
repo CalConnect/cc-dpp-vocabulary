@@ -1,0 +1,15 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to measurement and material flow
+
+[[dpp-0123]]
+=== mass balance model
+
+chain of custody model in which materials or products with a set of specified characteristics are mixed according to defined criteria with materials or products without that set of characteristics
+
+NOTE: The proportion of the input with specified characteristics can only match the initial proportions on average and will typically vary across different outputs.
+
+[.source]
+<<ISO22095,clause="3.3.4">>, <<CWA18291,clause="3.28">>
+
+

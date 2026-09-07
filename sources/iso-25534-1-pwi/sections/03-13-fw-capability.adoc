@@ -1,0 +1,88 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: capability classes and digital twins
+
+[[term-fw-13-01]]
+=== capability class
+
+classification of a subject by its ability to participate in its own record: silent, passive-auth, logged-contact or connected
+
+NOTE: A profile's freshness and verification requirements shall be satisfiable by the capability class of the subject; demanding live freshness from a silent subject is an unsatisfiable profile.
+
+[[term-fw-13-02]]
+=== silent subject
+
+subject with no connectivity, keys or self-reporting, whose record is reconstructed entirely from testimonies about it
+
+[[term-fw-13-03]]
+=== passive-auth subject
+
+subject carrying an authentication element, such as an NFC chip, physically unclonable function or identity link, that attests identity without recording events
+
+[[term-fw-13-04]]
+=== logged-contact subject
+
+subject that records events locally and discloses them on physical contact, without communications capability
+
+[[term-fw-13-05]]
+=== connected subject
+
+subject that self-reports under device keys and participates with full edge segments
+
+[[term-dpp-0132]]
+=== passive twin
+
+digital twin reconstructed from point-in-time attestations about the object, sampled when the object visits an attestor, in which truth is episodic and staleness between attestations is unbounded and undetectable
+
+NOTE: Corresponds to capability classes S0 (silent, testimony-only) and S1 (passive authentication).
+
+NOTE: Trust rides entirely on attestor authority; the twin is testimonial by default and sensorial by exception.
+
+[[term-dpp-0133]]
+=== active twin
+
+digital twin in which the object self-reports under device keys, making truth near-continuous, freshness bounded and detectable, and shifting the binding question from who saw the object to who attests the sensor
+
+NOTE: Corresponds to capability classes S2 (logged contact) and S3 (connected).
+
+NOTE: Measurement validity becomes load-bearing: sensor calibration, uncertainty of self-reported values and registered units; health status is a derived verdict.
+
+NOTE: Profiles declare, per data element, the required truth mode, namely attest-sampled, self-committed, or both with precedence.
+
+[[term-dpp-0145]]
+=== truth mode
+
+declared per-data-element attribute of a profile stating which truth source the element requires, namely attest-sampled, self-committed, or both with a precedence rule
+
+NOTE: The passive twin (concept dpp-0132) supplies attest-sampled truth and the active twin (concept dpp-0133) supplies self-committed truth; both paradigms coexist permanently in the framework.
+
+NOTE: Precedence between a calibrated device measurement and an attestor observation is itself a metrological hierarchy question.
+
+NOTE: Freshness and verification requirements must be satisfiable by the subject's capability class: demanding live freshness from an S0 (silent) product is an unsatisfiable profile.
+
+[[term-fw-13-09]]
+=== service-center model
+
+arrangement in which a subject's state is sampled and attested only when the subject visits an attestor, yielding episodic truth and unbounded, undetectable staleness between attestations
+
+[[term-fw-13-10]]
+=== self-testimony
+
+testimony class consisting of events asserted by the subject's own device under device-bound keys
+
+[[term-fw-13-11]]
+=== continuous conformity monitoring
+
+conformity mode in which requirements are re-judged against the live state of the twin, rather than only at point-in-time inspection
+
+[[term-fw-13-12]]
+=== state of health
+
+derived verdict on the condition of a subject, computed by a stated model from measured variables
+
+NOTE: The provenance of the computing model is itself governed information; health status is not a raw fact.
+
+[[term-fw-13-13]]
+=== sensor attestation
+
+attestation binding a measured value to a registered sensor identity, its calibration and its measurement uncertainty

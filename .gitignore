@@ -1,0 +1,8 @@
+# Metanorma build intermediates (keep HTML/PDF/XML as deliverables)
+*.asciidoc.log.txt
+*.err.html
+*.pdf.err
+relaton/
+build_stats.json
+.bundle/
+vendor/

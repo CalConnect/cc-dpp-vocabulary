@@ -1,0 +1,294 @@
+// generated from the UniDPP glossarist dataset - do not edit by hand
+[heading=terms and definitions]
+== Terms related to identity and carriers
+
+[[dpp-0003]]
+=== unique product identifier
+
+unique string of characters for the identification of a product that also enables a web link to the digital product passport
+
+[.source]
+<<EN18246,clause="3.3">>, <<EN18219>>
+
+
+
+[[dpp-0006]]
+=== unique identifier
+
+identifier which is guaranteed to be unique among all identifiers used for those objects and for a specific purpose
+
+NOTE: A unique identifier refers to unique product identifier ({{unique product identifier}}), unique economic operator identifier ({{unique economic operator identifier}}), and unique facility identifier ({{unique facility identifier}}).
+
+NOTE: For more information, see ISO/IEC 15459-1.
+
+NOTE: Regional variant: the definition recorded from the merged concept pair was: string of characters that is required to be unique among all identifiers used for all objects for a specific purpose
+
+NOTE: Recorded variance: EN 18219:2026 modification: Note 1 to entry removed and a new Note 1 to entry added. EN 18220:2026 modification: “identifier” replaced by “string of characters”, Note 1 to entry removed and a new Note 1 to entry added.
+
+[.source]
+<<ISO29404,clause="3.26">>, <<EN18219,clause="3.1.24">>, similar, <<EN18220,clause="3.18">>, similar, <<CWA18291,clause="3.3">>, <<ISOIEC15459-1>>
+
+
+
+[[dpp-0008]]
+=== digital identifier
+
+sequence of characters associated with digital, non-digital, or abstract entities, such as books, images, reports, metadata records or events
+
+[.source]
+<<ISO24619,clause="3.2.1">>, <<EN18216,clause="3.1">>
+
+
+
+[[dpp-0009]]
+=== identification
+
+process of recognizing an object in a particular domain as distinct from other objects
+
+[.source]
+<<ISOIEC24760,clause="3.2.1">>, <<EN18216,clause="3.3">>
+
+
+
+[[dpp-0010]]
+=== identification scheme
+
+system for allocating identifiers to objects
+
+[.source]
+<<ISOIEC6523,clause="3.6">>, modified, <<EN18219,clause="3.1.6">>
+
+
+
+[[dpp-0011]]
+=== domain
+
+specified area of knowledge, application, or activity within which a unique identifier is used
+
+[.source]
+<<EN18219,clause="3.1.4">>
+
+
+
+[[dpp-0012]]
+=== self-issuing system
+alt:[decentralized identification scheme]
+
+system or mechanism that an organization uses to generate and assign unique identifiers to its objects without the intervention or oversight of an external authority
+
+[.source]
+<<EN18219,clause="3.1.20">>
+
+
+
+[[dpp-0013]]
+=== persistence
+
+process to keep a unique identifier associated with an identified object throughout its life cycle
+
+[.source]
+<<EN18219,clause="3.1.13">>, <<EN18220,clause="3.12">>
+
+
+
+[[dpp-0014]]
+=== preservation
+
+activity of ensuring that a unique identifier and its denotation remain stable, valid, and retrievable for as long as required
+
+[.source]
+<<EN18219,clause="3.1.15">>
+
+
+
+[[dpp-0015]]
+=== resolution
+
+process in which an identifier is translated or mapped to another identifier, associated information or metadata about the object it represents
+
+[.source]
+<<EN18219,clause="3.1.18">>, <<ISOIEC18975>>
+
+
+
+[[dpp-0016]]
+=== resolver
+
+system or service that performs resolution ({{resolution}})
+
+[.source]
+<<EN18219,clause="3.1.19">>, <<ISOIEC18975>>
+
+
+
+[[dpp-0017]]
+=== unique economic operator identifier
+
+unique string of characters for the identification of an actors involved in a product's value chain
+
+NOTE: The source prints “an actors”; the definition is reproduced verbatim.
+
+[.source]
+<<EN18219,clause="3.1.22">>
+
+
+
+[[dpp-0018]]
+=== unique facility identifier
+
+unique string of characters for the identification of location or building involved in a product's value chain or used by actors involved in a product's value chain
+
+[.source]
+<<EN18219,clause="3.1.23">>
+
+
+
+[[dpp-0019]]
+=== unique registration identifier
+
+identifier returned after uploading the unique identifiers and any other data required to the DPP registry
+
+[example]
+--
+Unique identifiers can be unique product identifier, unique facility identifier, unique operator identifier of the economic operator etc.
+--
+
+[.source]
+<<EN18222,clause="3.6">>
+
+
+
+[[dpp-0020]]
+=== data carrier
+
+device or medium used to store data as a relay mechanism in an automatic identification and data capture system
+
+[.source]
+<<EN18220,clause="3.5">>
+
+
+
+[[dpp-0021]]
+=== additional software
+
+additional application, program, or tool that a user will install or access separately from the default setup of most smartphones or similar devices to interact with the digital product passport
+
+NOTE: Standard functionalities, such as web browsers, camera-based QR readers, and universal communication protocols (e.g. DNS, HTTP, HTTPS), are not considered as additional software.
+
+[example]
+--
+Proprietary applications, plugins or extensions, dedicated apps, specialized middleware, or customized software readers.
+--
+
+[.source]
+<<EN18220,clause="3.1">>
+
+
+
+[[dpp-0022]]
+=== barcode
+
+printed data carrier indicating either a reference to a linear or a 2D matrix
+
+NOTE: It excludes RFID data carriers.
+
+[.source]
+<<EN18220,clause="3.2">>
+
+
+
+[[dpp-0023]]
+=== near field communication
+alt:[NFC]
+
+subset of HF passive radio-frequency identification with low range
+
+[.source]
+<<EN18220,clause="3.11">>
+
+
+
+[[dpp-0024]]
+=== radio-frequency identification
+
+identification technology that uses electromagnetic fields to automatically identify and track tags attached to objects
+
+[.source]
+<<EN18220,clause="3.15">>
+
+
+
+[[dpp-0025]]
+=== RAIN RFID
+alt:[UHF RFID]
+
+passive UHF radio-frequency identification ({{radio-frequency identification}})
+
+NOTE: Source entry heading: “RAIN RFID (UHF RFID) per ISO/IEC 18000-63”.
+
+[.source]
+<<EN18220,clause="3.16">>
+
+
+
+[[dpp-0026]]
+=== two-dimensional symbol
+
+code representing data in machine-readable form by a collection of polygonal or circular cells in a regular pattern which are read optically by scanning
+
+[.source]
+<<EN18220,clause="3.17">>
+
+
+
+[[dpp-0027]]
+=== X dimension
+
+specified width of the narrow in a bar code symbol or the specified width of a single element in a two-dimensional symbol
+
+[.source]
+<<ISOIEC19762,clause="3.2.1.10">>, <<EN18220,clause="3.19">>
+
+
+
+[[dpp-0028]]
+=== batch
+
+subset of a model ({{model}}) that is grouped by an economic operator based on common characteristics
+
+[.source]
+<<EN18220,clause="3.3">>, similar, <<EN18219,clause="3.1.1">>
+
+
+
+[[dpp-0029]]
+=== item
+
+single unit of a model ({{model}})
+
+[.source]
+<<EN18220,clause="3.8">>, similar, <<EN18219,clause="3.1.9">>
+
+
+
+[[dpp-0030]]
+=== model
+
+version of a product of which all units share the same technical characteristics and the same model identifier
+
+[.source]
+<<EN18219,clause="3.1.11">>, <<EN18220,clause="3.10">>
+
+
+
+[[dpp-0031]]
+=== identifier
+
+identity information that unambiguously distinguishes one entity from another one in a given domain
+
+NOTE: There are specific identifiers, e.g. UUID Universal unique identifier, IEC 15418 (GS1).
+
+[.source]
+<<I40GLOSS>>, <<IDTA01001,clause="1.1.14">>
+
+

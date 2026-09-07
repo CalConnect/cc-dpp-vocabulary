@@ -1,0 +1,52 @@
+[[annex-sources]]
+[appendix]
+== Sources and harmonization matrix
+
+=== Corpus and method
+
+The terms and definitions clauses of the following source documents were harvested in full and verified concept by concept. <<table-a-1,Table A.1>> records, per source document, the number of concepts in this document that cite it and the clauses cited. The harvest comprised 141 term entries (82 from the EN 182xx series, 30 from CWA 18291:2025 and 29 from IDTA 01001-3.2:2026); ISO/AWI 25534-1 contributes the conflicting definition of the head term recorded in 3.1, together with the terms newly introduced in 3.4 (life cycle, circular economy, product circularity, traceability, value chain) and 3.5 (validation, verification) that were not previously represented in the harvested corpus. Concepts carried forward from the harvest carry source citations in their entries; lineage citations (standards from which a source document itself adopted a definition) are recorded in the source blocks of the entries.
+
+[[table-a-1]]
+[cols="3,1,1",options="header"]
+.Source documents and concepts citing them
+|===
+|Source document |Concepts |Principal clauses cited
+
+|EN 18219:2026, _Unique identifiers_ |24 |Clause 3
+|EN 18220:2026, _Data carriers_ |19 |Clause 3
+|CWA 18291:2025, textile supply chains |29 |Clause 3
+|IDTA 01001-3.2:2026, AAS metamodel |29 |Clause 1.1
+|EN 18239:2026, _Access rights management, information system security, and business confidentiality_ |9 |Clause 3
+|EN 18216:2026, _Data exchange protocols_ |8 |Clause 3
+|EN 18222:2026, _Application Programming Interfaces (APIs)_ |7 |Clause 3
+|EN 18221:2026, _Data storage, archiving, and data persistence_ |5 |Clause 3
+|EN 18223:2026, _System interoperability_ |4 |Clause 3
+|EN 18246:2026, _Data authentication, reliability and integrity_ |3 |Clause 3
+|ISO/AWI 25534-1 (working draft 2026-09-05) |8 |Clauses 3.1 to 3.8
+|IEC 63278-1:2023 (lineage citations, incl. compound sources) |14 |Clause 3 and Annex
+|===
+
+Lineage standards cited by entries of this document include IEC 63278-1:2023, ISO 59004:2024, ISO 5157:2023, ISO 29404:2015, ISO 22095:2020, ISO 59040, ISO/IEC 19762, ISO/IEC 17000:2020, ISO/IEC 22123-1:2023, ISO 18435-1:2009, ISO 18308:2011, IEC 61360-1:2016, ISO 22274:2013, ISO/IEC Guide 77-2:2008, IEC 61666:2010+AMD1:2021 CSV, IEC 62569-1:2017, IEC 62890:2016, IEC 61499-1, IEC 60050-741:2020, ISO/IEC 15459-1, ISO/IEC 18975:2024, ISO/IEC 20248:2022, ISO 9000:2015, ISO 14040:2006, ISO 80000-3, ISO 8601-1:2019, UNECE Recommendation No. 46 and the UN Transparency Protocol; the complete list is given in the Bibliography.
+
+=== Recorded conflicts and their harmonization
+
+The following conflicts were recorded during verification and harmonization.
+
+* *Head term.* EN 18223:2026, EN 18239:2026, EN 18216:2026, EN 18221:2026, EN 18222:2026 and EN 18246:2026 define the digital product passport as a "digital record of product characteristics throughout its life cycle"; EN 18219:2026 and EN 18220:2026 extend the same definition by accessibility "via electronic means through a data carrier"; ISO/AWI 25534-1 defines it as "a concept or technology which enables sharing of product related information". The ISO/AWI 25534-1, 3.1 formulation is the preferred definition of the entry at 3.1.1; the EN-family record-side variants are retained as source citations with `status: not_equal` and per-source modification notes recording the substantive variance; the EN 18219 / EN 18220 extension is recorded with its carrier-access qualifier. Resolution of the conflict is a decision for ISO/IEC JTC 5, for which this document is the input.
+* *Unique identifier.* EN 18219:2026, 3.1.24 and EN 18220:2026, 3.18 define the unique identifier as a "string of characters that is required to be unique among all identifiers used for all objects for a specific purpose"; CWA 18291:2025, 3.3 and the underlying ISO 29404:2015, 3.26 (and, behind that, the ISO/IEC 15459 family) define it as an "identifier which is guaranteed to be unique among all identifiers used for those objects and for a specific purpose". The ISO 29404:2015, 3.26 formulation is the preferred definition of the entry at 3.2.2; the EN-family formulation is recorded as a regional variant with `status: modified` and the substantive variance (`identifier` -> `string of characters`; `those objects` -> `all objects`; Note 1 to entry replaced) named in the source block.
+* *Economic operator.* EN 18219:2026, 3.1.5 and EN 18220:2026, 3.7 define the economic operator with the qualifier "that places the product on the market"; EN 18221:2026, 3.1 defines it without that qualifier. The EN 18221:2026, 3.1 formulation (the broader definition) is the preferred definition of the entry at 3.3.1; the narrower EN 18219 / EN 18220 formulation is recorded as a regional variant with `status: similar` and the qualifier named in the source block.
+* *Interoperability.* EN 18219:2026, 3.1.7 (with ISO/IEC 22123-1:2023, 3.6.1 lineage) defines interoperability as "the ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged"; EN 18223:2026, 3.1 (with ISO 18435-1:2009, 3.12 lineage) defines it as "the capability of two or more entities to exchange items in accordance with a set of rules and mechanisms implemented by an interface in each entity, in order to perform their specified tasks". The ISO/IEC 22123-1:2023, 3.6.1 formulation is the preferred definition of the entry at 3.6.1; the ISO 18435-1:2009, 3.12 formulation is recorded as a regional variant with `status: similar` and the substantive variance (`systems or applications` -> `entities`; `information` -> `items` through an `interface`) named in the source block.
+* *Field casing drift.* EN 18223:2026 specifies `lastUpdated`; IDTA 02099-1 implements `lastUpdate`; enumerated values drift in case between normative text (`model`, `batch`, `item`, `active`) and worked examples (`Model`, `Item`, `Active`). The drift is recorded here because it is reproduced in the terms of the corpus wherever example values are quoted.
+* *Lifecycles.* Three incompatible lifecycle taxonomies coexist in the EN series: the identifier-granularity model of EN 18219:2026, the nine-phase model of EN 18239:2026 Annex A and the ISO 14040:2006 lineage used by other parts of the series. The affected entries retain their respective sources; no attempt is made in this document to impose a single lifecycle model.
+* *Lookup systems.* EN 18219:2026 defines a resolver; EN 18222:2026 defines a registry API; the central EU registry is the object of a forthcoming implementing act; their relationships are unspecified in the corpus. The respective entries are kept distinct, and ISO/IEC 18975:2024 is recorded as the alignment target for the resolution model.
+
+=== Relationship to further vocabularies
+
+The entries of this document are aligned with the following further vocabularies:
+
+* *ISO 5157:2023* (textiles — environmental aspects) is cited by the entries for textile value-chain concepts (textile collector, collection, textile product), recorded in the dataset as adopted sources;
+* *ISO 59040* (circular economy — product circularity data sheet) is the alignment target for the material-flow entries (see 3.4 and 3.7) and for the transformation-algebra framework terms (3.11): the quantity carve-out and mass balance accounting entries are drafted to be compatible with its chain-of-custody concepts as standardized in ISO 22095:2020;
+* *ISO 8601-1:2019* (date and time — representation for information interchange) and *ISO 80000-3* (quantities and units — Part 3: Space and time) are recorded as informative alignment targets for the time-stamping and units semantics of the framework.
+* *UNTP* (UN Transparency Protocol) is the alignment target for the identity, carrier and resolution entries (3.2) and for the attestation triad recorded in the framework (3.11): the dataset's resolver and identifier concepts correspond to the UNTP product identifier and link-resolver model, and the verifiable-credential triad of UNTP corresponds to the framework's attestation concepts. These alignments are informative; they are recorded to prevent divergent redefinition as ISO/IEC JTC 5 work proceeds.
+
+The machine-readable concept dataset from which the entries of 3.1 to 3.7 are converted is maintained by the UniDPP harmonization project and is published at https://glossarist.org/dpp/ (mirror https://unidpp.org/terminology/). The dataset's source-of-truth is 145 verified concept files; the audit findings of the companion audit report `/Users/mulgogi/src/isoiecjtc5/drafts/dataset-audit/AUDIT-REPORT.md` are addressed in this document by the merger, lineage citation and designation hygiene edits applied in 3.1 to 3.7.

@@ -1,0 +1,103 @@
+// framework-defined entries (UniDPP) - generated, do not edit by hand
+[heading=terms and definitions]
+== Terms related to the framework: trust semantics, degradation and federation
+
+[[term-fw-16-01]]
+=== trust marker
+
+graded indicator attached to every element or event stating its trust provenance: unsigned, self-declared, third-party attested, multi-signed or log-anchored
+
+NOTE: Trust is graded, not mandated; profiles set minimum signing per data class.
+
+[[term-fw-16-02]]
+=== master list
+
+globally multi-witnessed list of trust lists, co-signed by a quorum of independent logs, by which verifiers cross-recognize jurisdictional trust authorities
+
+[[term-fw-16-03]]
+=== revocation window
+
+explicit start and end interval carried by a distrust declaration, within which affected credentials are void and outside which they are re-validated
+
+NOTE: The reason for revocation determines retroactivity: prospective reasons preserve earlier as-of verifications; misissuance voids validity from the beginning.
+
+[[term-fw-16-04]]
+=== three verification readings
+
+three legally distinct readings of a verification result, namely evidentiary, current-state and cryptographic, each of which a verdict states explicitly
+
+NOTE: The evidentiary reading asks what a diligent verifier could know at the time; the current-state reading voids fraud from the beginning; the cryptographic reading covers signature and chain validity alone.
+
+[[term-fw-16-05]]
+=== freshness verdict
+
+explicit, displayable assessment of how current a served state is relative to its declared freshness bound, degrading visibly when data is stale or offline
+
+[[term-fw-16-06]]
+=== coverage report
+
+statement accompanying a verdict enumerating which elements, trust anchors and registry items the verification covered
+
+[[term-fw-16-07]]
+=== discovery registry
+
+federated registry of record for passport services and semantics, in which profile shapes, protocol bindings, verification mechanisms and service endpoints are versioned, signed, log-anchored items discoverable by any conforming client
+
+NOTE: The registry holds descriptors of services and shapes, never records of things.
+
+[[term-fw-16-08]]
+=== service descriptor
+
+signed registry item describing a service by operator identity and credential, service class, endpoints, protocol binding, jurisdiction, residency class, status and succession pointer
+
+[[term-fw-16-09]]
+=== protocol binding
+
+registered specification of a wire grammar, media types, version and conformance suite by which an interaction with a service or a device is conducted
+
+[[term-fw-16-10]]
+=== verification mechanism bundle
+
+assembled set of registered items naming the cryptographic suite, trust framework, trust-list endpoints, revocation mechanism and acceptance-policy template under which a client verifies
+
+[[term-fw-16-11]]
+=== listing gate
+
+registered predicate evaluated by a marketplace over passport status and standing without holding passport data, admitting or refusing listings
+
+[[term-fw-16-12]]
+=== operator credential
+
+scoped, threshold-issued credential by which an operator signs registry items and service attestations
+
+NOTE: Appends claiming a role outside the credential's scope degrade the trust marker; they do not pass silently.
+
+[[term-fw-16-13]]
+=== onboarding ceremony
+
+threshold admission ceremony by which an operator joins the service federation, or a trust authority joins the master list, accepting continuity and succession obligations
+
+[[term-fw-16-14]]
+=== read federation
+
+federation tier in which any party consumes the registry and trust bundles without an admission ceremony
+
+[[term-fw-16-15]]
+=== service federation
+
+federation tier in which operators register services under signed descriptors and accept continuity and succession obligations
+
+[[term-fw-16-16]]
+=== trust federation
+
+federation tier in which trust authorities join the master list by threshold admission and jurisdictional profiles cross-recognize one another
+
+[[term-fw-16-17]]
+=== seed bundle
+
+bootstrap set of registry endpoints and trust anchors with which a conforming client first initializes, resolving the circular dependence between registry discovery and trust
+
+[[term-fw-16-18]]
+=== registry pinning
+
+binding of a passport manifest or a verdict to exact registry items by item, version and hash, so that later registry changes never alter what a past issuance must satisfy
