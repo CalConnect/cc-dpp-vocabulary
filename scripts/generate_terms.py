@@ -2,9 +2,9 @@
 """Generate Metanorma term-entry sections for the DPP vocabulary working draft.
 
 Sources of truth:
-  - Glossarist UniDPP dataset: ~/src/glossarist/unidpp/datasets/dpp/concepts/*.yaml (146 concepts)
-  - Framework vocabulary drafted from ~/src/isoiecjtc5/PLAN.md (terminology blocks + prose)
-    and ~/src/isoiecjtc5/PLAN-OPERATORS.md (end-list candidates)
+  - Glossarist UniDPP dataset: (local dataset path via env) (146 concepts)
+  - Framework vocabulary drafted from the UniDPP design framework (terminology blocks + prose)
+    and /the UniDPP operator model (end-list candidates)
 
 Output: sources/iso-25534-1-pwi/sections/03-*.adoc + build_stats.json
 """
@@ -17,9 +17,9 @@ import sys
 
 import yaml
 
-DATASET = os.path.expanduser("~/src/glossarist/unidpp/datasets/dpp/concepts")
+DATASET = os.path.expanduser("(local dataset path via env)")
 OUTDIR = os.path.expanduser(
-    "~/src/calconnect/cc-dpp-vocabulary/sources/iso-25534-1-pwi/sections"
+    "(local dataset path via env)"
 )
 
 # ---------------------------------------------------------------------------

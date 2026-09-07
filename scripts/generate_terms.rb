@@ -4,10 +4,10 @@
 # Generate Metanorma ISO 25534-1 PWI term-entry sections from the
 # UniDPP glossarist concept dataset.
 #
-# Source of truth: ~/src/glossarist/unidpp/datasets/dpp/concepts/*.yaml
+# Source of truth: ENV UNIDPP_GLOSSARIST_CONCEPTS or sibling glossarist dataset
 # (145 concepts after the 2026-09-07 merger of dpp-0001 and dpp-0004).
 #
-# Output: /Users/mulgogi/src/calconnect/cc-dpp-vocabulary/sources/iso-25534-1-pwi/sections/
+# Output: this repository/sources/iso-25534-1-pwi/sections/
 #
 # Editorial decisions applied by this generator (per the dataset audit):
 #
@@ -59,10 +59,8 @@ require "unidpp_glossarist"
 require "yaml"
 require "fileutils"
 
-DATASET = File.expand_path("~/src/glossarist/unidpp/datasets/dpp/concepts")
-OUT     = File.expand_path(
-  "~/src/calconnect/cc-dpp-vocabulary/sources/iso-25534-1-pwi/sections"
-)
+DATASET = ENV.fetch("UNIDPP_GLOSSARIST_CONCEPTS") { File.expand_path("../../../glossarist/unidpp/datasets/dpp/concepts", __dir__) }
+OUT     = File.expand_path("../sources/iso-25534-1-pwi/sections", __dir__)
 
 # ---------------------------------------------------------------------------
 # Merge map: source termid => { into:, prefer: }. The source termid is

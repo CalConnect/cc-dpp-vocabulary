@@ -17,7 +17,7 @@ Artifacts: `document.pdf`, `document.html`, `document.xml`.
 == Dataset
 
 Term entries are generated from the Glossarist UniDPP dataset
-(`~/src/glossarist/unidpp`, 145 concepts) via `scripts/generate_terms.rb`.
+(the UniDPP Glossarist dataset, 145 concepts) via `scripts/generate_terms.rb`.
 
 == Form 4
 

@@ -2715,7 +2715,7 @@
 </li>
 </ul>
 
-<p id="_3fe8ddfe-3512-1112-1a71-44403efd9647">The machine-readable concept dataset from which the entries of 3.1 to 3.7 are converted is maintained by the UniDPP harmonization project and is published at <link target="https://glossarist.org/dpp/"/> (mirror <link target="https://unidpp.org/terminology/"/>). The dataset’s source-of-truth is 145 verified concept files; the audit findings of the companion audit report <tt>/Users/mulgogi/src/isoiecjtc5/drafts/dataset-audit/AUDIT-REPORT.md</tt> are addressed in this document by the merger, lineage citation and designation hygiene edits applied in 3.1 to 3.7.</p>
+<p id="_3fe8ddfe-3512-1112-1a71-44403efd9647">The machine-readable concept dataset from which the entries of 3.1 to 3.7 are converted is maintained by the UniDPP harmonization project and is published at <link target="https://glossarist.org/dpp/"/> (mirror <link target="https://unidpp.org/terminology/"/>). The dataset’s source-of-truth is 145 verified concept files; the audit findings of the companion audit report <tt>the companion dataset audit report</tt> are addressed in this document by the merger, lineage citation and designation hygiene edits applied in 3.1 to 3.7.</p>
 </clause>
 </annex><bibliography><references id="_08e4a7cd-1a73-9a2a-4dac-fc841681bf21" normative="true" obligation="informative">
 <title id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><p id="_1e0e85f2-a241-464a-90af-046b5883d60f">There are no normative references in this document.</p>

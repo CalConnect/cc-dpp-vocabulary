@@ -153,8 +153,8 @@ Is this a Management Systems Standard (MSS)? ☐ Yes ☒ No.
 
 * Proposed date for first meeting: 2026-12 (Berlin or virtual).
 * Dates for key milestones:
-  * DIS submission: 2027-09.
-  * Publication: 2028-03.
+ * DIS submission: 2027-09.
+ * Publication: 2028-03.
 
 ### Known patented items
 
@@ -179,91 +179,91 @@ with which it harmonises rather than competes. It builds upon and
 is intended to be used in conjunction with:
 
 * ISO/IEC 15459, _Information technology — Automatic identification
-  and data capture techniques — Unique identification_, in particular
-  Part 1 (transport units), Part 2 (registration procedures),
-  Part 3 (common rules) and Part 6 (groupings);
+ and data capture techniques — Unique identification_, in particular
+ Part 1 (transport units), Part 2 (registration procedures),
+ Part 3 (common rules) and Part 6 (groupings);
 * ISO/IEC 18975, _Information technology — Automatic identification
-  and data capture techniques — Encoding and resolving identifiers
-  over HTTP_;
+ and data capture techniques — Encoding and resolving identifiers
+ over HTTP_;
 * ISO/IEC 22123-1, _Information technology — Cloud computing —
-  Part 1: Terminology_;
+ Part 1: Terminology_;
 * ISO/IEC 17000, _Conformity assessment — Vocabulary and general
-  principles_;
+ principles_;
 * ISO/IEC 20248, _Information technology — Automatic identification
-  and data capture techniques — Digital signature data structure
-  schema_;
+ and data capture techniques — Digital signature data structure
+ schema_;
 * ISO 59004, _Circular economy — Vocabulary, principles and guidance
-  for implementation_;
+ for implementation_;
 * ISO 59040, _Circular economy — Product circularity data sheet_;
 * ISO 22095, _Chain of custody — General terms and models_;
 * ISO 14040, _Environmental management — Life cycle assessment —
-  Principles and framework_;
+ Principles and framework_;
 * ISO 8601-1, _Date and time — Representation for information
-  interchange — Part 1: Basic rules_;
+ interchange — Part 1: Basic rules_;
 * ISO 80000-3, _Quantities and units — Part 3: Space and time_;
 * ISO 5157, _Textiles — Environmental aspects — Vocabulary_;
 * the UN Transparency Protocol (UNTP), the UNCEFACT Traceability
-  and Transparency BRS, and the Product Circularity Data Use Case
-  BRS;
+ and Transparency BRS, and the Product Circularity Data Use Case
+ BRS;
 * the UNECE Recommendation No. 46, _Enhancing traceability and
-  transparency of sustainable value chains in the garment and
-  footwear sector_.
+ transparency of sustainable value chains in the garment and
+ footwear sector_.
 
 ### A listing of relevant existing documents
 
 International:
 
 * ISO/AWI 25534-1, _Digital product passport — Part 1: Overview and
-  fundamental principles_, working draft (2026-09-05).
+ fundamental principles_, working draft (2026-09-05).
 * ISO/TC 307 series (blockchain and distributed ledger technologies),
-  in particular ISO 22739 (vocabulary) and ISO 23257 (reference
-  architecture), as the structural template for derivative
-  DPP standards.
+ in particular ISO 22739 (vocabulary) and ISO 23257 (reference
+ architecture), as the structural template for derivative
+ DPP standards.
 * IEC 63278-1, _Industrial-process measurement, control and
-  automation — Asset administration shell for industrial applications
-  — Part 1: Concept_.
+ automation — Asset administration shell for industrial applications
+ — Part 1: Concept_.
 * IDTA 01001-3.2:2026, _Specification of the Asset Administration
-  Shell — Part 1: Metamodel_.
+ Shell — Part 1: Metamodel_.
 * ISO/IEC 15459 (all parts), _Unique identification_.
 * ISO/IEC 18975:2024, _Encoding and resolving identifiers over HTTP_.
 * ISO/IEC 22123-1:2023, _Cloud computing — Part 1: Terminology_.
 * ISO/IEC 17000:2020, _Conformity assessment — Vocabulary and general
-  principles_.
+ principles_.
 * ISO/IEC 20248:2022, _Digital signature data structure schema_.
 * ISO 59004:2024, _Circular economy — Vocabulary, principles and
-  guidance for implementation_.
+ guidance for implementation_.
 * ISO 59040, _Circular economy — Product circularity data sheet_.
 * ISO 22095:2020, _Chain of custody — General terms and models_.
 * ISO 14040:2006, _Environmental management — Life cycle assessment —
-  Principles and framework_.
+ Principles and framework_.
 * ISO 8601-1:2019, _Date and time — Representation for information
-  interchange — Part 1: Basic rules_.
+ interchange — Part 1: Basic rules_.
 * ISO 80000-3, _Quantities and units — Part 3: Space and time_.
 * ISO 5157:2023, _Textiles — Environmental aspects — Vocabulary_.
 * UNECE Recommendation No. 46, _Enhancing traceability and
-  transparency of sustainable value chains in the garment and
-  footwear sector_.
+ transparency of sustainable value chains in the garment and
+ footwear sector_.
 * UN Transparency Protocol (UNTP), UN/CEFACT, development draft.
 
 Regional:
 
 * EN 18216:2026, _Digital Product Passport — Data exchange
-  protocols_.
+ protocols_.
 * EN 18219:2026, _Digital Product Passport — Unique identifiers_.
 * EN 18220:2026, _Digital product passport — Data carriers_.
 * EN 18221:2026, _Digital Product Passport — Data storage, archiving,
-  and data persistence_.
+ and data persistence_.
 * EN 18222:2026, _Digital Product Passport — Application Programming
-  Interfaces (APIs) for the product passport lifecycle management
-  and searchability_.
+ Interfaces (APIs) for the product passport lifecycle management
+ and searchability_.
 * EN 18223:2026, _Digital Product Passport — System interoperability_.
 * EN 18239:2026, _Digital Product Passport — Access rights
-  management, information system security, and business
-  confidentiality_.
+ management, information system security, and business
+ confidentiality_.
 * EN 18246:2026, _Digital product passport — Data authentication,
-  reliability and integrity_.
+ reliability and integrity_.
 * CWA 18291:2025, _TRICK — Guidelines on data collection from Textile
-  supply chains for the Digital Product Passport_.
+ supply chains for the Digital Product Passport_.
 
 ### Benefits/impacts on stakeholder categories
 
@@ -284,24 +284,24 @@ Regional:
 ### Liaisons to be engaged in the development of the deliverable
 
 * ISO/TC 154, _Processes, data elements and documents in commerce,
-  industry and administration_ (CalConnect's parent TC; ISO 34000
-  authorship; UNTDED stewardship);
+ industry and administration_ (CalConnect's parent TC; ISO 34000
+ authorship; UNTDED stewardship);
 * ISO/TC 307, _Blockchain and distributed ledger technologies_ (the
-  structural template for derivative DPP standards);
+ structural template for derivative DPP standards);
 * ISO/TC 323, _Circular economy_ (ISO 59004, ISO 59040 authorship);
 * ISO/IEC JTC 1/SC 27, _Information security, cybersecurity and
-  privacy protection_ (trust semantics);
+ privacy protection_ (trust semantics);
 * ISO/IEC JTC 1/SC 31, _Automatic identification and data capture
-  techniques_ (ISO/IEC 15459 family authorship);
+ techniques_ (ISO/IEC 15459 family authorship);
 * CEN-CLC/JTC 24, _Digital Product Passport_ (EN 182xx series);
 * Industrial Digital Twin Association (IDTA) (Asset Administration
-  Shell specification);
+ Shell specification);
 * UN/CEFACT (UN Transparency Protocol);
 * UNECE (UNECE Recommendation No. 46);
 * CalConnect (Calendaring and Scheduling Consortium; proposing
-  organization);
+ organization);
 * OIML (International Organization of Legal Metrology; OIML SMART
-  programme);
+ programme);
 * ELF (Express Logic Forum; EXPRESS and OWL formal models).
 
 ### Joint/parallel work
@@ -349,15 +349,15 @@ project as an active project.
 
 ☒ Annex(es) are included with this proposal:
 * Annex A — _Audit of the UniDPP DPP concept dataset_, in
-  /Users/mulgogi/src/isoiecjtc5/drafts/dataset-audit/AUDIT-REPORT.md
-  (companion audit report identifying the duplicate-designation
-  findings, the international-source gaps and the resolution
-  precedents, including the resolution of the dpp-0001 / dpp-0004
-  merger of 2026-09-07).
+ the companion dataset audit report
+ (companion audit report identifying the duplicate-designation
+ findings, the international-source gaps and the resolution
+ precedents, including the resolution of the dpp-0001 / dpp-0004
+ merger of 2026-09-07).
 * Annex B — _Digital product passport — Part 1: Vocabulary_
-  working draft (ISO/PWI 25534-1:2026), the PWI stage 00.00 draft
-  attached as the source-of-truth deliverable for the proposed
-  Part 1.
+ working draft (ISO/PWI 25534-1:2026), the PWI stage 00.00 draft
+ attached as the source-of-truth deliverable for the proposed
+ Part 1.
 
 ### Maintenance agencies and registration authorities
 
@@ -366,6 +366,6 @@ None required.
 ### Signature
 
 * I am aware of the responsibilities and obligations of proposer
-  organizations per ISO/IEC Directives, Part 1, Clause 1.17. ☒
+ organizations per ISO/IEC Directives, Part 1, Clause 1.17. ☒
 * **Name:** [authorized signatory, CalConnect secretariat]
 * **Date:** [date]
