@@ -23,6 +23,8 @@ any physical good that is placed on the market ({{placed on the market}}) or put
 
 first making available of a product
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<EN18219,clause="3.1.14">>
 
@@ -30,6 +32,8 @@ first making available of a product
 === put into service
 
 first use, for its intended purpose, of a product
+
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
 
 [.source]
 <<EN18219,clause="3.1.17">>
@@ -112,6 +116,8 @@ traceable asset is any product or material (individually, in batches, or in trad
 
 product made mainly of textile fibres, yarns and/or fabrics and intended to be used, as such or in conjunction with other textile or non-textile elements
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 NOTE: These articles can contain non-textile parts, such as plastics (e.g. buttons and membrane or coatings) or metals.
 
 NOTE: Source entry heading: “textile product – product”.
@@ -124,6 +130,8 @@ NOTE: Source entry heading: “textile product – product”.
 
 products and materials are designed in such a way that they can be reused, remanufactured, recycled or recovered and thus maintained in the economy for as long as possible, along with the resources of which they are made, and the generation of waste, especially hazardous waste, is avoided or minimized and greenhouse gas emissions are prevented or reduced, can contribute significantly to sustainable consumption and production
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<AWI25534,clause="3.3">>, <<UNEP_EA4_Res1>>
 
@@ -131,6 +139,8 @@ products and materials are designed in such a way that they can be reused, reman
 === product circularity
 
 refers to repairing, reusing and remanufacturing equipment, and harvesting and recycling metals indefinitely through product design and collection processes
+
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
 
 [.source]
 <<AWI25534,clause="3.4">>, <<UNEP_Toledano_2023>>

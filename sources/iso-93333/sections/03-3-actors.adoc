@@ -145,6 +145,8 @@ company or company function that produces non final products (accessories, fabri
 
 company or company function that produces yarns from raw material; it has mainly Fabric and Knitwear producers as customers (Apparel Producers sometimes)
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<CWA18291,clause="3.16">>
 
@@ -161,6 +163,8 @@ company or company function that sells garments to the Consumer. It is a client 
 
 company or company function that organizes manufacturing and material supplying to obtain finished garments from fabrics. It is a client of Fabric Producer and partially of Yarn Producer
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<CWA18291,clause="3.18">>
 
@@ -169,6 +173,8 @@ company or company function that organizes manufacturing and material supplying 
 
 person or a system that categorizes discarded textile materials by their fibre composition, color, and condition to determine their potential for reuse, repair, or recycling
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<CWA18291,clause="3.19">>
 
@@ -176,6 +182,8 @@ person or a system that categorizes discarded textile materials by their fibre c
 === textile collector
 
 actor involved in separate collection of textiles
+
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
 
 [.source]
 <<ISO5157>>, <<CWA18291,clause="3.20">>

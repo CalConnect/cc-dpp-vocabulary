@@ -117,6 +117,8 @@ NOTE: In this document “sustainability claims” are referred to as just “cl
 
 developed stage of technical capability at a given time as regards products, processes and services, based on the relevant consolidated findings of science, technology and experience
 
+NOTE: Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).
+
 [.source]
 <<ISOIECGuide2,clause="1.4">>, <<EN18219,clause="3.1.21">>
 

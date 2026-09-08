@@ -58,15 +58,17 @@
 <p id="_d657e4ae-0f74-f81a-afd8-f5c9cc9c4f52">For an explanation of the voluntary nature of standards, the meaning of ISO and IEC specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the World Trade Organization (WTO) principles in the Technical Barriers to Trade (TBT), see www.iso.org/iso/foreword.html.</p>
 
 <p id="_1d166036-fa83-2af3-da05-734da5bd861d">This document was prepared by Joint Technical Committee ISO/IEC JTC 5, <em>Digital product passport</em>.</p>
-</foreword><introduction id="_15114971-b358-69a8-4a7e-530ef80d650d" anchor="introduction" obligation="informative">
+</foreword><introduction id="_b57ec34c-e86c-f1be-4549-a2b7415ed74e" anchor="introduction" obligation="informative">
 <title id="_2b2e98d1-114a-3da4-8556-01ae0a724280">Introduction</title>
 <p id="_3b53da6a-e496-7ac8-b287-85aeec2a52a4">A digital product passport makes product-related information available to economic operators, authorities and other parties over the life of a product. The same designations are used today with different definitions in different instruments. Without a single vocabulary, systems that claim conformance to those instruments do not interoperate on meaning.</p>
 
 <p id="_a05298be-ad54-1e31-b597-ca9e6cb7784c">This document is that vocabulary. It defines the terms required for digital product passport work in ISO/IEC JTC 5 and for referring documents.</p>
 
-<p id="_7ac1cb83-f077-0805-2b76-572370d1e4d5">Clause 3 is organized by subject: the digital product passport itself; identity and carriers; actors; life cycle; trust and verification; semantics and profiles; measurement; and the concepts of projection, provenance, composition, capability and federation used when a passport is operated across jurisdictions and systems. Where a definition is taken from another International Standard, that standard is indicated with the entry.</p>
+<p id="_676dc8e5-172a-8527-ff98-202fef8630f0">Two classes of entry are distinguished. <strong>Structural terms</strong> name the speech acts, roles and mechanisms of the passport framework — attestation, classification, designation, profile, custody transfer — and are defined globally. <strong>Domain-scoped entries</strong> name concepts whose criteria of application are owned by a community: jurisdictions (placed on the market), sectors (textile product), or cultural and appraisal communities (quality designations). Domain-scoped entries are recorded for navigational completeness; each carries a NOTE to that effect, and nothing in this document harmonizes their criteria across communities. Where correspondence between communities exists, it is expressed as a registered mapping item in a semantic registry maintained under the disciplines of ISO 19135, not by definition. Interoperability in this framework is a matter of shared negotiability — identity, time, attestation form, measurement discipline and trust — rather than of shared meaning.</p>
 
-<p id="_ad10b96f-06fb-5168-90b4-d8a95fa6b393"><xref target="annex-sources"/> provide the relationship of this document to other standards and publications that define or use terms related to those in Clause 3.</p>
+<p id="_83401ff8-155c-0b0e-fba3-49bd9f72e955">Clause 3 is organized by subject: the digital product passport itself; identity and carriers; actors; life cycle; trust and verification; semantics and profiles; measurement; and the concepts of projection, provenance, composition, capability and federation used when a passport is operated across jurisdictions and systems. Where a definition is taken from another International Standard, that standard is indicated with the entry.</p>
+
+<p id="_a0b30b47-09d9-f97b-980b-ac8c7639fd5e"><xref target="annex-sources"/> provide the relationship of this document to other standards and publications that define or use terms related to those in Clause 3.</p>
 </introduction></preface><sections>
 
 <clause id="_74890e2f-e63a-c2f0-8cd7-d95536593412" type="scope" inline-header="false" obligation="normative">
@@ -446,7 +448,7 @@
 </termnote><source status="identical" type="authoritative"><origin bibitemid="I40GLOSS" type="inline" citeas="Glossar Industrie 4.0"/></source></term>
 </terms>
 
-<terms id="_8d6d0833-2573-ff55-5bf2-2e6a8ec42880" obligation="normative">
+<terms id="_de89dcd1-6acb-daf8-5c0e-061569819671" obligation="normative">
 <title id="_0e7f42e9-d544-d0d0-4edf-63f010492988">Terms related to actors and issuance</title>
 <term id="_b101262e-dff4-4a36-1cbe-75104eff5a44" anchor="dpp-0032"><preferred><expression>
 <name>economic operator</name>
@@ -624,14 +626,17 @@
  <source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.15</referenceFrom></locality></localityStack></origin>
 </source></term>
 
-<term id="_b5759d02-0572-f9de-4650-3e51a6c24cda" anchor="dpp-0050"><preferred><expression>
+<term id="_b8d4700f-7b84-b2c7-acd0-29fe77adf048" anchor="dpp-0050"><preferred><expression>
 <name>yarn producer</name>
 </expression>
 </preferred>
 <definition id="_71d50395-8e4c-567d-d9d4-180177917c35"><verbal-definition id="_d30cc4d0-cebc-ef90-cdd8-57a5dba92cc2"><p id="_c44db0cd-e980-a73d-523f-c52bfcb6a6f8">company or company function that produces yarns from raw material; it has mainly Fabric and Knitwear producers as customers (Apparel Producers sometimes)</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.16</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_22ad7051-d751-5480-a7b4-a508c61279c9"><p id="_09a1e886-52d2-f1ce-ee05-4b1f47ef9876">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.16</referenceFrom></locality></localityStack></origin>
 </source></term>
 
 <term id="_c95501c8-623e-8e69-b6cc-f8347b09d9f4" anchor="dpp-0051"><preferred><expression>
@@ -644,34 +649,43 @@
  <source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.17</referenceFrom></locality></localityStack></origin>
 </source></term>
 
-<term id="_5dd41810-8d49-ad9a-cf92-4adb4fb5109e" anchor="dpp-0052"><preferred><expression>
+<term id="_13409cf0-b738-ada8-404e-04a665d3de7b" anchor="dpp-0052"><preferred><expression>
 <name>apparel producer</name>
 </expression>
 </preferred>
 <definition id="_5aecd0bb-45f4-75c4-7497-1646db2b4ce6"><verbal-definition id="_d1dadd69-321a-f6f2-ab7b-0d61bbbd13c7"><p id="_2078327e-ab09-c828-8938-2f288accbe9c">company or company function that organizes manufacturing and material supplying to obtain finished garments from fabrics. It is a client of Fabric Producer and partially of Yarn Producer</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.18</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_96ee392d-71f0-6999-f22c-f2a79fae852f"><p id="_ac212daf-7840-c768-49b4-76fa9ec24777">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.18</referenceFrom></locality></localityStack></origin>
 </source></term>
 
-<term id="_075f0df2-33af-57d3-ecd4-f3f9642b0192" anchor="dpp-0053"><preferred><expression>
+<term id="_305f1b79-663b-1ec9-6e31-c861f223b927" anchor="dpp-0053"><preferred><expression>
 <name>sorter</name>
 </expression>
 </preferred>
 <definition id="_a6f9f3b9-9baa-cbc0-befc-5ae44883f2d9"><verbal-definition id="_2ade0543-a7ce-6a18-d0c2-d18927b28ead"><p id="_90bd8099-361a-aea2-e8ad-76664bfa5df6">person or a system that categorizes discarded textile materials by their fibre composition, color, and condition to determine their potential for reuse, repair, or recycling</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.19</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_e17e86de-ff4e-de73-2478-e4a18c3ddb7a"><p id="_72fd654d-6338-861f-72a6-05b91a00dd19">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="CWA18291" type="inline" citeas="CEN CWA 18291:2025"><localityStack><locality type="clause"><referenceFrom>3.19</referenceFrom></locality></localityStack></origin>
 </source></term>
 
-<term id="_15409e6b-580d-a6a6-ef5a-bb7674b0b086" anchor="dpp-0054"><preferred><expression>
+<term id="_cec41092-d437-27e0-bc0f-7408a934b56a" anchor="dpp-0054"><preferred><expression>
 <name>textile collector</name>
 </expression>
 </preferred>
 <definition id="_13a5a93a-81c2-4244-8b93-ba9f97b63925"><verbal-definition id="_4726fc63-e266-c855-5025-130472fa869d"><p id="_46b9f545-f354-bb5c-b569-1ad7e6637dd1">actor involved in separate collection of textiles</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="ISO5157" type="inline" citeas="ISO 5157:2023"/></source></term>
+
+
+ <termnote id="_0fc177c6-8a6d-5e36-2333-3693cc02e3e4"><p id="_8ada784d-772e-5a82-7584-817d3060a610">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="ISO5157" type="inline" citeas="ISO 5157:2023"/></source></term>
 
 <term id="_4452db1b-ab12-63d0-09a8-55ee6a6904e1" anchor="dpp-0055"><preferred><expression>
 <name>recycler</name>
@@ -719,7 +733,7 @@
 </source></term>
 </terms>
 
-<terms id="_c5382158-2817-53f2-c793-6b78066af453" obligation="normative">
+<terms id="_7544e561-fe1e-37f5-ddd2-4c389e4193ed" obligation="normative">
 <title id="_66fcd38b-260f-ac33-c150-0f8d9037cd2a">Terms related to lifecycle and events</title>
 <term id="_adb1150a-a3d6-6611-a87c-19fb874fddd8" anchor="dpp-0059"><preferred><expression>
 <name>life cycle</name>
@@ -745,24 +759,30 @@
 </modification>
 </source></term>
 
-<term id="_ffb5371d-7be0-e065-2345-aa47ca259a9d" anchor="dpp-0061"><preferred><expression>
+<term id="_dc53cc53-c0ff-1bf8-52f3-95d08b845350" anchor="dpp-0061"><preferred><expression>
 <name>placed on the market</name>
 </expression>
 </preferred>
 <definition id="_4487e298-1e1d-a865-c89a-152828ded9a3"><verbal-definition id="_4ca4ea78-dba1-f5d2-43f3-08104626d621"><p id="_3f125cd5-3d14-7d40-a420-4d24c5e278a7">first making available of a product</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="EN18219" type="inline" citeas="CEN EN 18219:2026"><localityStack><locality type="clause"><referenceFrom>3.1.14</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_5294e0ce-25e9-9445-13e8-f0586586b316"><p id="_19b68e81-1cda-2f9b-cb9f-a4f641c54877">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="EN18219" type="inline" citeas="CEN EN 18219:2026"><localityStack><locality type="clause"><referenceFrom>3.1.14</referenceFrom></locality></localityStack></origin>
 </source></term>
 
-<term id="_730046a8-4db9-8530-dcd6-6b7bb203ce28" anchor="dpp-0062"><preferred><expression>
+<term id="_4a4b621f-569c-e783-c5af-91db5e294b21" anchor="dpp-0062"><preferred><expression>
 <name>put into service</name>
 </expression>
 </preferred>
 <definition id="_949ba443-d5a9-1a86-e9b3-85cd9f0aea39"><verbal-definition id="_e2b37792-350e-14f8-5846-d6ef6133de8f"><p id="_f712f21c-6dd3-110a-3af4-c13c86f95216">first use, for its intended purpose, of a product</p></verbal-definition></definition>
 
 
- <source status="identical" type="authoritative"><origin bibitemid="EN18219" type="inline" citeas="CEN EN 18219:2026"><localityStack><locality type="clause"><referenceFrom>3.1.17</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_759043ca-f9e2-88bc-9350-6417b027d0f5"><p id="_811d46c1-4282-a307-b048-9e55913ebc34">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="identical" type="authoritative"><origin bibitemid="EN18219" type="inline" citeas="CEN EN 18219:2026"><localityStack><locality type="clause"><referenceFrom>3.1.17</referenceFrom></locality></localityStack></origin>
 </source></term>
 
 <term id="_43bb8c61-d7a4-3113-1200-ccc9cf3723b9" anchor="dpp-0063"><preferred><expression>
@@ -849,7 +869,7 @@
 
  <source status="identical" type="authoritative"><origin bibitemid="UNECE46" type="inline" citeas="UNECE Recommendation No. 46"/></source></term>
 
-<term id="_beb6b5ef-9edc-bd80-4571-7b71b9c0b659" anchor="dpp-0071"><preferred><expression>
+<term id="_0701bf57-360d-f282-c427-0fd1452ab7dc" anchor="dpp-0071"><preferred><expression>
 <name>textile product</name>
 </expression>
 </preferred>
@@ -860,30 +880,39 @@
 
 
 
- <termnote id="_26e270e0-4c9d-227a-fea2-ab095d7c6cf5"><p id="_f3f6e3f0-f983-9de2-4478-f4acb7df4e5a">These articles can contain non-textile parts, such as plastics (e.g. buttons and membrane or coatings) or metals.</p>
-</termnote><termnote id="_ac3e3cf3-7a2a-0d8f-a04c-b51363fb87e2"><p id="_552a8ca7-9b86-7608-76c8-5082e769ed45">Source entry heading: “textile product – product”.</p>
+
+
+ <termnote id="_fdc559f0-3e79-975a-5e40-51dc67e6e1cb"><p id="_d52a0ad6-710d-5e4e-d4af-947f01a7c0f5">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><termnote id="_4c4b5c80-f8a3-b34b-2377-cd203c2f340e"><p id="_36ce1460-2259-b0e4-7f49-f081d08d778a">These articles can contain non-textile parts, such as plastics (e.g. buttons and membrane or coatings) or metals.</p>
+</termnote><termnote id="_b942a1a8-0e43-b3e2-6495-720c8c945deb"><p id="_23fe8dae-1bdf-2b8e-864b-e15e9592cfd6">Source entry heading: “textile product – product”.</p>
 </termnote><source status="identical" type="authoritative"><origin bibitemid="ISO5157" type="inline" citeas="ISO 5157:2023"/></source></term>
 
-<term id="_9bcbd4eb-c118-bcd8-e743-5f39907d0e67" anchor="awi-3.3"><preferred><expression>
+<term id="_14db6288-3160-8e77-0b90-458ddd30dbdd" anchor="awi-3.3"><preferred><expression>
 <name>circular economy</name>
 </expression>
 </preferred>
 <definition id="_643a2fc7-906e-60cd-e1a0-7b20b4473677"><verbal-definition id="_2a5be3bd-01eb-a3e2-5844-3b7b5205c471"><p id="_53b4df23-5e51-bf0d-0e97-a2dd86e0439c">products and materials are designed in such a way that they can be reused, remanufactured, recycled or recovered and thus maintained in the economy for as long as possible, along with the resources of which they are made, and the generation of waste, especially hazardous waste, is avoided or minimized and greenhouse gas emissions are prevented or reduced, can contribute significantly to sustainable consumption and production</p></verbal-definition></definition>
 
 
- <source status="modified" type="authoritative"><origin bibitemid="AWI25534" type="inline" citeas="ISO/AWI 25534-1:2026"><localityStack><locality type="clause"><referenceFrom>3.3</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_dc6c6633-ccf5-b7e6-7270-ce2bcac42ef3"><p id="_70a3c938-d215-2941-236b-142de0df5a8f">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="modified" type="authoritative"><origin bibitemid="AWI25534" type="inline" citeas="ISO/AWI 25534-1:2026"><localityStack><locality type="clause"><referenceFrom>3.3</referenceFrom></locality></localityStack></origin>
 <modification><p id="_c52ed302-1c3d-be7a-7487-e53e2f46dbfd"><eref type="inline" bibitemid="UNEP_EA4_Res1" citeas="UNEP/EA.4/Res.1"/></p>
 </modification>
 </source></term>
 
-<term id="_7724690c-ae0c-526e-1093-d096f22fdfc9" anchor="awi-3.4"><preferred><expression>
+<term id="_f7e90517-8fc9-92c2-f679-a6fcd9b52e67" anchor="awi-3.4"><preferred><expression>
 <name>product circularity</name>
 </expression>
 </preferred>
 <definition id="_bbafa4e6-93e0-8deb-54b7-5c11674ef9ba"><verbal-definition id="_1a87b232-dd2e-f993-6d01-f0c85da31438"><p id="_d9c2a666-c7eb-81a5-5259-b2f9e0c9990e">refers to repairing, reusing and remanufacturing equipment, and harvesting and recycling metals indefinitely through product design and collection processes</p></verbal-definition></definition>
 
 
- <source status="modified" type="authoritative"><origin bibitemid="AWI25534" type="inline" citeas="ISO/AWI 25534-1:2026"><localityStack><locality type="clause"><referenceFrom>3.4</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_68ba0cb8-c06b-473a-34c4-46fcfd088e9b"><p id="_13cda0ba-cfcb-c0dc-0887-d38b1309fc82">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="modified" type="authoritative"><origin bibitemid="AWI25534" type="inline" citeas="ISO/AWI 25534-1:2026"><localityStack><locality type="clause"><referenceFrom>3.4</referenceFrom></locality></localityStack></origin>
 <modification><p id="_440887f1-be62-04b5-c62f-af5cee505d95"><eref type="inline" bibitemid="UNEP_Toledano_2023" citeas="UNEP, Toledano, Bauch and Arnold 2023"/></p>
 </modification>
 </source></term>
@@ -904,7 +933,7 @@
 </source></term>
 </terms>
 
-<terms id="_ea209aa0-7796-55ca-d622-ec569de43a2f" obligation="normative">
+<terms id="_1d1030bb-dc93-7ac6-c562-682c507d1714" obligation="normative">
 <title id="_f96683c6-55e0-ac99-bdc1-ebe6bb5bbac2">Terms related to trust and verification</title>
 <term id="_3ed649a6-b3d9-12a1-3193-6d7c011b7c9c" anchor="dpp-0002"><preferred><expression>
 <name>controlled DPP data</name>
@@ -1062,14 +1091,17 @@
  <termnote id="_fbd801f2-3751-c1bc-5d10-47f0d32ca64b"><p id="_f7fd0e2c-75b9-ab16-4268-8bf8b41f9c4c">In this document “sustainability claims” are referred to as just “claims”.</p>
 </termnote><source status="identical" type="authoritative"><origin bibitemid="UNECE46" type="inline" citeas="UNECE Recommendation No. 46"/></source></term>
 
-<term id="_e31cd376-5222-6b23-8eb5-f42f0813a348" anchor="dpp-0083"><preferred><expression>
+<term id="_2537cca4-25d0-3efc-9c1c-4909819e0280" anchor="dpp-0083"><preferred><expression>
 <name>state-of-the-art</name>
 </expression>
 </preferred>
 <definition id="_554a42e1-e6d3-8459-ab1d-658477e71aa0"><verbal-definition id="_58492e3b-09fb-83e2-a2d4-4940b4447821"><p id="_74f5b168-8142-aa20-f0f0-a997b2e790e7">developed stage of technical capability at a given time as regards products, processes and services, based on the relevant consolidated findings of science, technology and experience</p></verbal-definition></definition>
 
 
- <source status="modified" type="authoritative"><origin bibitemid="ISOIECGuide2" type="inline" citeas="ISO/IEC Guide 2:2004"><localityStack><locality type="clause"><referenceFrom>1.4</referenceFrom></locality></localityStack></origin>
+
+
+ <termnote id="_fb02be06-caeb-24ff-c9a9-eca7d5d4687b"><p id="_746dad68-3d98-60c8-c0f7-606d8efc926b">Domain-scoped entry — the criteria of application of this concept are owned by the communities (jurisdictional, sectoral or cultural) that govern it; this entry is recorded for navigational completeness and does not harmonize those criteria across communities (see the Introduction).</p>
+</termnote><source status="modified" type="authoritative"><origin bibitemid="ISOIECGuide2" type="inline" citeas="ISO/IEC Guide 2:2004"><localityStack><locality type="clause"><referenceFrom>1.4</referenceFrom></locality></localityStack></origin>
 <modification><p id="_33d13469-0680-9143-c81a-dbb2e7760b36"><eref type="inline" bibitemid="EN18219" citeas="CEN EN 18219:2026"><localityStack><locality type="clause"><referenceFrom>3.1.21</referenceFrom></locality></localityStack></eref></p>
 </modification>
 </source></term>
